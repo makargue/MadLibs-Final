@@ -24,42 +24,83 @@ void Words4::setAdjective10(string value) {
 	adjective10 = value;
 }
 
-void Words3::setLastName1(string value) {
-	lastName1 = value;
+void Words4::setAdjective11(string value) {
+	adjective11 = value;
 }
 
-void Words3::setLastName2(string value) {
-	lastName2 = value;
+void Words4::setPluralNoun10(string value) {
+	pluralNoun10 = value;
 }
 
-void Words3::setPluralAnimal1(string value) {
-	pluralAnimal1 = value;
+void Words4::setPluralNoun11(string value) {
+	pluralNoun11 = value;
 }
 
-void Words3::setPluralNoun5(string value) {
-	pluralNoun5 = value;
+void Words4::setPluralNoun12(string value) {
+	pluralNoun12 = value;
 }
 
-void Words3::setPluralNoun6(string value) {
-	pluralNoun6 = value;
+void Words4::setNoun8(string value) {
+	noun8 = value;
 }
 
-void Words3::setPluralNoun7(string value) {
-	pluralNoun7 = value;
+void Words4::setNoun9(string value) {
+	noun9 = value;
 }
 
-void Words3::setPluralNoun8(string value) {
-	pluralNoun8 = value;
+void Words4::setNoun10(string value) {
+	noun10 = value;
 }
 
-void Words3::setPluralNoun9(string value) {
-	pluralNoun9 = value;
+void Words4::setNoun11(string value) {
+	noun11 = value;
 }
 
-void Words3::setStory3(string value) {
-	story3 = value;
+void Words4::setName1(string value){
+	name1 = value;
 }
 
+void Words4::setName2(string value){
+	name2 = value;
+}
+
+void Words4::setName3(string value){
+	name3 = value;
+}
+
+void Words4::setState1(string value){
+	state1 = value;
+}
+
+void Words4::setState2(string value){
+	state2 = value;
+}
+
+void Words4::setPlant1(string value){
+	plant1 = value;
+}
+
+void Words4::setStory4(string value) {
+	story4 = value;
+}
+
+/*string adjective9;
+string adjective10;
+string adjective11;
+string pluralNoun10;
+string pluralNoun11;
+string pluralNoun12;
+string noun8;
+string noun9;
+string noun10;
+string noun11;
+string name1;
+string name2;
+string name3;
+string state1;
+string state2;
+string plant1;
+string story4;*/
 string Words3::getAdjective8() {
 	return adjective8;
 }

@@ -101,54 +101,71 @@ string state1;
 string state2;
 string plant1;
 string story4;*/
-string Words3::getAdjective8() {
-	return adjective8;
+
+string Words4::getAdjective9() {
+	return adjective9;
 }
 
-string Words3::getCelebrity1() {
-	return celebrity1;
+string Words4::getAdjective10() {
+	return adjective10;
 }
 
-string Words3::getLastName1() {
-	return lastName1;
+string Words4::getAdjective11() {
+	return adjective11;
 }
 
-string Words3::getLastName2() {
-	return lastName2;
+string Words4::getPluralNoun10() {
+	return pluralNoun10;
 }
 
-string Words3::getNoun6() {
-	return noun6;
+string Words4::getPluralNoun11() {
+	return noun11;
 }
 
-string Words3::getNoun7() {
-	return noun7;
+string Words4::getPluralNoun12() {
+	return pluralNoun12;
 }
 
-string Words3::getPluralAnimal1() {
-	return pluralAnimal1;
+string Words4::getNoun8() {
+	return noun8;
 }
 
-string Words3::getPluralNoun5() {
-	return pluralNoun5;
+string Words4::getNoun9() {
+	return noun9;
 }
 
-string Words3::getPluralNoun6(){
-	return pluralNoun6;
+string Words4::getNoun10(){
+	return noun10;
 }
 
-string Words3::getPluralNoun7(){
-	return pluralNoun7;
+string Words4::getNoun11(){
+	return noun11;
 }
 
-string Words3::getPluralNoun8(){
-	return pluralNoun8;
+string Words4::getName1(){
+	return name1;
 }
 
-string Words3::getPluralNoun9(){
-	return pluralNoun9;
+string Words4::getName2(){
+	return name2;
 }
 
-string Words3::getStory3(){
-	return story3;
+string Words4::getName3(){
+	return name3;
+}
+
+string Words4::getState1(){
+	return state1;
+}
+
+string Words4::getState2(){
+	return state2;
+}
+
+string Words4::getPlant1(){
+	return plant1;
+}
+
+string Words4::getStory4(){
+	return story4;
 }

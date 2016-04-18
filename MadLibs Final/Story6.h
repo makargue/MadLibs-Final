@@ -1,7 +1,3 @@
-/*adjective,adjective, adjective,adverb,noun,noun,noun,number,
-name,name,plural noun, plural noun, plural noun, plural noun,liquid,verb
-*/
-
 #pragma once
 #include <string>
 #include <vector>
@@ -33,40 +29,46 @@ private:
 	string story6;
 public:
 	Words2();
-	void setAdjective4(string value);
-	void setAdjective5(string value);
-	void setAdjective6(string value);
-	void setAdjective7(string value);
-	void setNoun2(string value);
-	void setNoun3(string value);
-	void setNoun4(string  value);
-	void setNoun5(string value);
-	void setNumber1(string value);
-	void setPartOfBod2(string value);
-	void setPartOfBod3(string  value);
-	void setPluralNoun1(string value);
-	void setPluralNoun2(string value);
-	void setPluralNoun3(string value);
-	void setPluralNoun4(string value);
-	void setVerb1(string value);
-	void setVerbING2(string value);
-	void setStory2(string value);
-	string getAdjective4();
-	string getAdjective5();
-	string getAdjective6();
-	string getAdjective7();
-	string getNoun2();
-	string getNoun3();
-	string getNoun4();
-	string getNoun5();
-	string getNumber1();
-	string getPartOfBod2();
-	string getPartOfBod3();
-	string getPluralNoun1();
-	string getPluralNoun2();
-	string getPluralNoun3();
-	string getPluralNoun4();
-	string getVerb1();
-	string VerbING2();
-	string Story2();
+	void setAdjective14(string value);
+	void setAdjective15(string value);
+	void setAdjective16(string value);
+	void setAdjective17(string value);
+	void setAdjective18(string value);
+	void setAdjective19(string value);
+	void setAdjective20(string value);
+	void setAdverb2(string value);
+	void setNoun16(string value);
+	void setNoun17(string  value);
+	void setNoun18(string value);
+	void setNumber2(string value);
+	void setName5(string value);
+	void setname6(string  value);
+	void setPluralNoun13(string value);
+	void setPluralNoun14(string value);
+	void setPluralNoun15(string value);
+	void setPluralNoun16(string value);
+	void setVerb3(string value);
+	void setLiquid1(string value);
+	void setStory6(string value);
+	string getAdjective14();
+	string getAdjective15();
+	string getAdjective16();
+	string getAdjective17();
+	string getAdjective18();
+	string getAdjective19();
+	string getAdjective20();
+	string getAdverb2();
+	string getNoun16();
+	string getNoun17();
+	string getNoun18();
+	string getNumber2();
+	string getName5();
+	string getName6();
+	string getPluralNoun13();
+	string getPluralNoun14();
+	string getPluralNoun15();
+	string getPluralNoun16();
+	string getVerb3();
+	string Liquid1();
+	string Story6();
 };

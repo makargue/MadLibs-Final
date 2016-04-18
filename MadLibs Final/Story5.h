@@ -3,7 +3,7 @@
 #include <vector>
 
 using namespace std;
-/*adverb, feeling, conjunction*/
+
 class Words5{
 private:
 	string noun12;

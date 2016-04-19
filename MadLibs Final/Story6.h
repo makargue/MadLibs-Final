@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class Words2{
+class Words6{
 private:
 	string adjective14;
 	string adjective15;
@@ -28,7 +28,7 @@ private:
 	string liquid1;
 	string story6;
 public:
-	Words2();
+	Words6();
 	void setAdjective14(string value);
 	void setAdjective15(string value);
 	void setAdjective16(string value);
@@ -42,7 +42,7 @@ public:
 	void setNoun18(string value);
 	void setNumber2(string value);
 	void setName5(string value);
-	void setname6(string  value);
+	void setName6(string  value);
 	void setPluralNoun13(string value);
 	void setPluralNoun14(string value);
 	void setPluralNoun15(string value);
@@ -69,6 +69,6 @@ public:
 	string getPluralNoun15();
 	string getPluralNoun16();
 	string getVerb3();
-	string Liquid1();
-	string Story6();
+	string getLiquid1();
+	string getStory6();
 };

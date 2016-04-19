@@ -6,53 +6,14 @@
 #include <vector>
 
 #include "Story1.h"
+#include "Story2.h"
+#include "Story3.h"
+#include "Story4.h"
+#include "Story5.h"
+#include "Story6.h"
 
 using namespace std;
-
-int main() {
-	vector<Words1> words1;
-	double noun1;
-	double adjective1;
-	double adjective2;
-	double adjective3;
-	double femaleName1;
-	double maleName1;
-	double occupation1;
-	double occupation2;
-	double partOfBod1;
-	double verbING1;
-
-	ifstream in;
-	ofstream out;
-	
-	while (!in.eof() && in.good()) {
-		Words1 temp;
-		in >> noun1;
-		in >> adjective1;
-		in >> adjective2;
-		in >> adjective3;
-		in >> femaleName1;
-		in >> maleName1;
-		in >> occupation1;
-		in >> occupation2;
-		in >> partOfBod1;
-		in >> verbING1;
-	
-		words1.push_back(temp);
-	}
-
-in.close();
-
-while (!in.eof() && in.good()) {
-
-	for (vector<Words1>::iterator it = words1.begin(); it != words1.end(); it++) {
-	}
-}
-in.close();
-
-out.open("output.txt");
-
-	for(vector<Words1>::iterator it = words1.begin(); it != words1.end(); it++) {
+     /*  STORY ONE
 		cout << " Thank You! Thank you from the bottom of my " << setw(11) << left << "." << setw(11) << right << it->getPartOfBod1() << endl;
 		cout << " I don't know what to say. I'm speechless. I truly didn't expect to win this " << setw(11) << left << "," << setw(11) << right << it->getAdjective1() << endl;
 		cout << " certainly not with so many _" << setw(11) << left << " " << setw(11) << right << it->getAdjective2() << endl;
@@ -63,17 +24,31 @@ out.open("output.txt");
 		cout << " director. I must also thank" << setw(11) << left << "." << setw(11) << right << it->getMaleName1() << endl;
 		cout << " who wrote a" << setw(11) << left << "." << setw(11) << right << it->getAdjective3() << endl;
 		cout << "script for me. Of course, none of this would be happening if it weren't for my agent, who convinced the network that I could play a 75 year - old, retired" << setw(11) << left << "." << setw(11) << right << it->getNoun1() << endl;
+		*/
 		
-		/*	string noun1;
-		string adjective1;
-		string adjective2;
-		string adjective3;
-		string femaleName1;
-		string maleName1;
-		string occupation1;
-		string occupation2;
-		string partOfBod1;
-		string verbING1; */
+
+
+/*STORY TWO
+		cout<<"I love to " << setw(11) << left << "." << setw(11) << right << it->getVerb1() << endl;
+		cout<<"video games. I can play them day and "<< setw(11) << left << "!" << setw(11) << right << it->getNoun2() << endl;
+		cout<<"My mom and"<< setw(11) << left << "!" << setw(11) << right << it->getNoun3() << endl;
+		cout<<"are not too happy with me"<< setw(11) << left << "" << setw(11) << right << it->getVerbING2() << endl;
+		cout<<"so much time in front of the television"<< setw(11) << right << it->getAdjective4() << endl;
+		cout<<"games help children develop hand-"<< setw(11) << left << "." << setw(11) << right << it->getPartOfBod2() << endl;
+		cout<<"coordination and improve their learning"<< setw(11) << left << "." << setw(11) << right << it->getPluralNoun1() << endl;
+		cout<<", he also seems to think they have" << setw(11) << left << "." << setw(11) << right << it->getAdjective5() << endl;
+		cout<<"side effects on one's" << setw(11) << left << "." << setw(11) << right << it->getPartOfBod3() << endl;
+		cout<<"Both of my " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun2() << endl;
+		cout<<"think this is due to a " << setw(11) << left << "." << setw(11) << right << it->getAdjective6() << endl;
+		cout<<"use of violence in the majority of the " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun3() << endl;
+		
+		n4
+		1
+		n5
+		pn4
+		
+		
+		*/
 
 	system("pause");
 	return 0;

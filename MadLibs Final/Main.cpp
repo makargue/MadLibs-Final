@@ -41,13 +41,10 @@ using namespace std;
 		cout<<"Both of my " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun2() << endl;
 		cout<<"think this is due to a " << setw(11) << left << "." << setw(11) << right << it->getAdjective6() << endl;
 		cout<<"use of violence in the majority of the " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun3() << endl;
-		
-		n4
-		1
-		n5
-		pn4
-		
-		
+		cout<<"Finally, we all arrived at a"<< setw(11) << left << "!" << setw(11) << right << it->getNoun4() << endl;
+		cout<<"compromise: After dinner I can play"<< setw(11) << left << "!" << setw(11) << right << it->getNumber1() << endl;
+		cout<<"hours of video games, provided I help clear the"<< setw(11) << left << "!" << setw(11) << right << it->getNoun5() << endl;
+		cout<<"and wash the"<< setw(11) << left << " " << setw(11) << right << it->getPluralNoun4() << endl;
 		*/
 
 	system("pause");

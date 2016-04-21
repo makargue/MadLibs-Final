@@ -1,7 +1,7 @@
 #include "Story7.h"
 
 
-void Words6::setAdjective14(string value) {
+void Words7::setAdjective14(string value) {
 	adjective14 = value;
 }
 

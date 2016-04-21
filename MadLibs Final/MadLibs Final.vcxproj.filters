@@ -45,6 +45,9 @@
     <ClCompile Include="Story6.cpp">
       <Filter>Source Files\Stories.cpp</Filter>
     </ClCompile>
+    <ClCompile Include="Story7.cpp">
+      <Filter>Source Files\Stories.cpp</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Story1.h">
@@ -63,6 +66,9 @@
       <Filter>Header Files\Story.h</Filter>
     </ClInclude>
     <ClInclude Include="Story6.h">
+      <Filter>Header Files\Story.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Story7.h">
       <Filter>Header Files\Story.h</Filter>
     </ClInclude>
   </ItemGroup>

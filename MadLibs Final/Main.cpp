@@ -11,9 +11,10 @@
 #include "Story4.h"
 #include "Story5.h"
 #include "Story6.h"
+#include "Story7.h"
 
 using namespace std;
-     /*  STORY ONE
+/*STORY ONE
 		cout << " Thank You! Thank you from the bottom of my " << setw(11) << left << "." << setw(11) << right << it->getPartOfBod1() << endl;
 		cout << " I don't know what to say. I'm speechless. I truly didn't expect to win this " << setw(11) << left << "," << setw(11) << right << it->getAdjective1() << endl;
 		cout << " certainly not with so many _" << setw(11) << left << " " << setw(11) << right << it->getAdjective2() << endl;
@@ -23,9 +24,9 @@ using namespace std;
 		cout << " here tonight if it weren't for my " << setw(11) << left << "." << setw(11) << right << it->getOccupation2() << endl;
 		cout << " director. I must also thank" << setw(11) << left << "." << setw(11) << right << it->getMaleName1() << endl;
 		cout << " who wrote a" << setw(11) << left << "." << setw(11) << right << it->getAdjective3() << endl;
-		cout << "script for me. Of course, none of this would be happening if it weren't for my agent, who convinced the network that I could play a 75 year - old, retired" << setw(11) << left << "." << setw(11) << right << it->getNoun1() << endl;
-		*/
+		cout << "script for me. Of course, none of this would be happening if it weren't for my agent, who convinced the network that I could play a 75 year - old, retired" << setw(11) << left << "." << setw(11) << right << it->getNoun1() << endl;*/
 		
+
 
 
 /*STORY TWO
@@ -44,8 +45,7 @@ using namespace std;
 		cout<<"Finally, we all arrived at a"<< setw(11) << left << "!" << setw(11) << right << it->getNoun4() << endl;
 		cout<<"compromise: After dinner I can play"<< setw(11) << left << "!" << setw(11) << right << it->getNumber1() << endl;
 		cout<<"hours of video games, provided I help clear the"<< setw(11) << left << "!" << setw(11) << right << it->getNoun5() << endl;
-		cout<<"and wash the"<< setw(11) << left << " " << setw(11) << right << it->getPluralNoun4() << endl;
-		*/
+		cout<<"and wash the"<< setw(11) << left << " " << setw(11) << right << it->getPluralNoun4() << endl;*/
 
 
 
@@ -62,9 +62,16 @@ using namespace std;
 		cout<<" They usually play electric" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun8() << endl;
 		cout<<"One member of the group usually sits on a raised platform and sets the rhythm by beating his " << setw(11) << left << "." << setw(11) << right << it->getNoun6() << endl;
 		cout<<" The songs are mostly about some fellow who has been rejected by his " << setw(11) << left << "." << setw(11) << right << it->getNoun7() << endl;
-		cout<<"They are very sad and when young girls hear them, they often get tears in their  " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun9() << endl;
-*/
+		cout<<"They are very sad and when young girls hear them, they often get tears in their  " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun9() << endl;*/
 
+
+
+
+/*STORY FOUR
+
+
+
+*/
 	system("pause");
 	return 0;
 }

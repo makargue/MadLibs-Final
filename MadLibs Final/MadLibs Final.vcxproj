@@ -72,6 +72,7 @@
     <ClCompile Include="Story4.cpp" />
     <ClCompile Include="Story5.cpp" />
     <ClCompile Include="Story6.cpp" />
+    <ClCompile Include="Story7.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Story1.h" />
@@ -80,6 +81,7 @@
     <ClInclude Include="Story4.h" />
     <ClInclude Include="Story5.h" />
     <ClInclude Include="Story6.h" />
+    <ClInclude Include="Story7.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

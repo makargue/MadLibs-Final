@@ -28,15 +28,15 @@ public:
 	void setLocation1(string value);
 	void setNumber3(string value);
 	void setStory7(string value);
-	string getPronoun1;
-	string getPluralNoun17;
-	string getPluralNoun18;
-	string getNoun19;
-	string getVerbING4;
-	string getEvent1;
-	string getEvent2;
-	string getLocation1;
-	string getNumber3;
-	string getStory7;
+	string getPronoun1();
+	string getPluralNoun17();
+	string getPluralNoun18();
+	string getNoun19();
+	string getVerbING4();
+	string getEvent1();
+	string getEvent2();
+	string getLocation1();
+	string getNumber3();
+	string getStory7();
 
 };

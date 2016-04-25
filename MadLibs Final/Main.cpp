@@ -89,10 +89,10 @@ using namespace std;
 
 /*STORY FIVE
 cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective12() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAnimal1() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdverb1() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getConjunction1() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun() << endl;
 cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
 cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
 cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;

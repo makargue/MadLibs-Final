@@ -7,9 +7,9 @@ using namespace std;
 class Words7{
 private:
 	string pronoun1;
+	string pluralNoun16;
 	string pluralNoun17;
-	string pluralNoun18;
-	string noun19;
+	string noun18;
 	string verbING4;
 	string event1;
 	string event2;
@@ -19,9 +19,9 @@ private:
 public:
 	Words7();
 	void setPronoun1(string value);
+	void setPluralNoun16(string value);
 	void setPluralNoun17(string value);
-	void setPluralNoun18(string value);
-	void setNoun19(string value);
+	void setNoun18(string value);
 	void setVerbING4(string value);
 	void setEvent1(string value);
 	void setEvent2(string value);
@@ -29,9 +29,9 @@ public:
 	void setNumber3(string value);
 	void setStory7(string value);
 	string getPronoun1();
+	string getPluralNoun16();
 	string getPluralNoun17();
-	string getPluralNoun18();
-	string getNoun19();
+	string getNoun18();
 	string getVerbING4();
 	string getEvent1();
 	string getEvent2();

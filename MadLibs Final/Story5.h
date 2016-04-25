@@ -6,11 +6,11 @@ using namespace std;
 
 class Words5{
 private:
+	string noun11;
 	string noun12;
 	string noun13;
 	string noun14;
 	string noun15;
-	string noun16;
 	string adjective12;
 	string adjective13;
 	string verb2;
@@ -23,11 +23,11 @@ private:
 	string story5;
 public:
 	Words5();
+	void setNoun11(string value);
 	void setNoun12(string value);
 	void setNoun13(string value);
 	void setNoun14(string value);
 	void setNoun15(string value);
-	void setNoun16(string value);
 	void setAdjective12(string value);
 	void setAdjective13(string  value);
 	void setVerb2(string value);
@@ -38,11 +38,11 @@ public:
 	void setFeeling1(string Value);
 	void setConjunction1(string Value);
 	void setStory5(string value);
+	string getNoun11();
 	string getNoun12();
 	string getNoun13();
 	string getNoun14();
 	string getNoun15();
-	string getNoun16();
 	string getAdjective12();
 	string getAdjective13();
 	string getVerb2();

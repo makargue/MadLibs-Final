@@ -88,6 +88,7 @@ using namespace std;
 
 
 /*STORY FIVE
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective12() << endl;
 cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
 cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
 cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
@@ -101,5 +102,16 @@ cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << e
 cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
 cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
 cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+
+
+
+The world's ADJECTIVE supersonic ANIMAL unrivalled in speed returns once more. 
+Always the drifter,Sonic goes ADVERB CONJUNCTION the wind takes him, and lives
+life accordingly to his own NOUN rather than the NOUN of those around him. 
+He's basically ADJECTIVE but when he gets fired up over an injustice, his NOUN 
+explodes with surprising consequences. Always at the VERBING  end of this 
+FEELING is his arch-enemy Dr. NAME whose fiendish plots to take over the world
+are constantly being foiled by Sonic. Saving the world is a nice NOUN but Sonic
+is soon off to VERB his next NOUN.
 */
+

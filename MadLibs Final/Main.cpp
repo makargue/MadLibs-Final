@@ -68,10 +68,20 @@ using namespace std;
 
 
 /*STORY FOUR
-
-
+		cout<<"Dear Mom and Dad, Camp is so " << setw(11) << left << "." << setw(11) << right << it->getAdjective9() << endl;
+		cout<<"The food here is really good, unlike that camp food " << setw(11) << left << "." << setw(11) << right << it->getName1() << endl;
+		cout<<" told me about. We get to eat " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun10() << endl;
+		cout<<" and" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun11() << endl;
+		cout<<"every day of the week! This week I get to try out all the activities and sports. We are canoeing in " << setw(11) << left << "." << setw(11) << right << it->getAdjective10() << endl;
+		cout<<" water on Lake " << setw(11) << left << "." << setw(11) << right << it->getName2() << endl;
+		cout<<" We also are learning how to dive off the" << setw(11) << left << "." << setw(11) << right << it->getAdjective11() << endl;
+		cout<<" diving board! I tried archery and I wasn't very good—I hit a(n)" << setw(11) << left << "." << setw(11) << right << it->getPlant1() << endl;
+		cout<<" by mistake. I'll practice and get better, though. For Arts and Crafts, I made a clay" << setw(11) << left << "." << setw(11) << right << it->getNoun8() << endl;
+		cout<<" and a" << setw(11) << left << "." << setw(11) << right << it->getNoun9() << endl;
+		cout<<" out of macramé, and a shelf for Mom to put her" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun11() << endl;
+		cout<<" on. I even learned about whittling. I made a(n)" << setw(11) << left << "." << setw(11) << right << it->getNoun10() << endl;
+		cout<<" out of wood! Can you believe it? I especially like all the friends I am meeting. Kids here come from all over the country, from as far away as " << setw(11) << left << "." << setw(11) << right << it->getState1() << endl;
+		cout<<" and" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+		cout<<"  I am sorry I have to leave soon. I sure am going to miss all the fun I've had here. Maybe I can go camping in the backyard when I get back and pretend that I'm still at camp. Do you think Spot will want to camp with me? Love always," << setw(11) << left << "." << setw(11) << right << it->getName3() << endl;
 
 */
-	system("pause");
-	return 0;
-}

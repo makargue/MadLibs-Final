@@ -11,11 +11,9 @@ private:
 	string adjective11;
 	string pluralNoun10;
 	string pluralNoun11;
-	string pluralNoun12;
 	string noun8;
 	string noun9;
 	string noun10;
-	string noun11;
 	string name1;
 	string name2;
 	string name3;

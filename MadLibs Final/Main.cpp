@@ -92,16 +92,16 @@ cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective12()
 cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAnimal1() << endl;
 cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdverb1() << endl;
 cout<<"" << setw(11) << left << "." << setw(11) << right << it->getConjunction1() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun11() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun12() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective13() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun13() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getVerbING3() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getFeeling1() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getName4() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun14() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getVerb2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun15() << endl;
 
 
 

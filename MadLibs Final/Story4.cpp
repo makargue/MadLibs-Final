@@ -36,9 +36,6 @@ void Words4::setPluralNoun11(string value) {
 	pluralNoun11 = value;
 }
 
-void Words4::setPluralNoun12(string value) {
-	pluralNoun12 = value;
-}
 
 void Words4::setNoun8(string value) {
 	noun8 = value;
@@ -50,10 +47,6 @@ void Words4::setNoun9(string value) {
 
 void Words4::setNoun10(string value) {
 	noun10 = value;
-}
-
-void Words4::setNoun11(string value) {
-	noun11 = value;
 }
 
 void Words4::setName1(string value){
@@ -119,11 +112,7 @@ string Words4::getPluralNoun10() {
 }
 
 string Words4::getPluralNoun11() {
-	return noun11;
-}
-
-string Words4::getPluralNoun12() {
-	return pluralNoun12;
+	return pluralNoun11;
 }
 
 string Words4::getNoun8() {
@@ -138,9 +127,6 @@ string Words4::getNoun10(){
 	return noun10;
 }
 
-string Words4::getNoun11(){
-	return noun11;
-}
 
 string Words4::getName1(){
 	return name1;

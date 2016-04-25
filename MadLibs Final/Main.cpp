@@ -85,3 +85,21 @@ using namespace std;
 		cout<<"  I am sorry I have to leave soon. I sure am going to miss all the fun I've had here. Maybe I can go camping in the backyard when I get back and pretend that I'm still at camp. Do you think Spot will want to camp with me? Love always," << setw(11) << left << "." << setw(11) << right << it->getName3() << endl;
 
 */
+
+
+/*STORY FIVE
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getState2() << endl;
+*/

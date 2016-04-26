@@ -88,30 +88,20 @@ using namespace std;
 
 
 /*STORY FIVE
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective12() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAnimal1() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdverb1() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getConjunction1() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun11() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun12() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective13() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun13() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getVerbING3() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getFeeling1() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getName4() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun14() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getVerb2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun15() << endl;
+		cout<<"The world's" << setw(11) << left << "." << setw(11) << right << it->getAdjective12() << endl;
+		cout<<"supersonic" << setw(11) << left << "." << setw(11) << right << it->getAnimal1() << endl;
+		cout<<"unrivalled in speed returns once more. Always the drifter,Sonic goes" << setw(11) << left << "." << setw(11) << right << it->getAdverb1() << endl;
+		cout<<"" << setw(11) << left << "." << setw(11) << right << it->getConjunction1() << endl;
+		cout<<"the wind takes him, and lives life accordingly to his own" << setw(11) << left << "." << setw(11) << right << it->getNoun11() << endl;
+		cout<<"rather than the" << setw(11) << left << "." << setw(11) << right << it->getNoun12() << endl;
+		cout<<"of those around him. He's basically  " << setw(11) << left << "." << setw(11) << right << it->getAdjective13() << endl;
+		cout<<"but when he gets fired up over an injustice, his" << setw(11) << left << "." << setw(11) << right << it->getNoun13() << endl;
+		cout<<"explodes with surprising consequences. Always at the" << setw(11) << left << "." << setw(11) << right << it->getVerbING3() << endl;
+		cout<<"end of this " << setw(11) << left << "." << setw(11) << right << it->getFeeling1() << endl;
+		cout<<"is his arch-enemy Dr. " << setw(11) << left << "." << setw(11) << right << it->getName4() << endl;
+		cout<<"whose fiendish plots to take over the world are constantly being foiled by Sonic. Saving the world is a nice" << setw(11) << left << "." << setw(11) << right << it->getNoun14() << endl;
+		cout<<"but Sonic is soon off to" << setw(11) << left << "." << setw(11) << right << it->getVerb2() << endl;
+		cout<<"his next" << setw(11) << left << "." << setw(11) << right << it->getNoun15() << endl;
 
-
-
-The world's ADJECTIVE supersonic ANIMAL unrivalled in speed returns once more. 
-Always the drifter,Sonic goes ADVERB CONJUNCTION the wind takes him, and lives
-life accordingly to his own NOUN rather than the NOUN of those around him. 
-He's basically ADJECTIVE but when he gets fired up over an injustice, his NOUN 
-explodes with surprising consequences. Always at the VERBING  end of this 
-FEELING is his arch-enemy Dr. NAME whose fiendish plots to take over the world
-are constantly being foiled by Sonic. Saving the world is a nice NOUN but Sonic
-is soon off to VERB his next NOUN.
 */
 

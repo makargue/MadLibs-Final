@@ -108,8 +108,28 @@ using namespace std;
 
 
 /*STORY SIX
-
-
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective14() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getName5() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective15() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getPartOfBod4() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun15() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun16() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNumber2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun12() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getLiquid1() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdverb2() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getName6() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective16() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective17() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getName7() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective18() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective19() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective20() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun13() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun17() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun14() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getVerb3() << endl;
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun15() << endl;
 
 
 Dear Physical Education Teacher,

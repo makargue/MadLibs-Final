@@ -20,11 +20,13 @@ private:
 	string number2;
 	string name5;
 	string name6;
+	string name7;
 	string pluralNoun12;
 	string pluralNoun13;
 	string pluralNoun14;
 	string pluralNoun15;
 	string verb3;
+	string PartOfBod4;
 	string liquid1;
 	string story6;
 public:

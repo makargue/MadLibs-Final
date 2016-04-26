@@ -105,3 +105,29 @@ using namespace std;
 
 */
 
+
+
+/*STORY SIX
+
+
+
+
+Dear Physical Education Teacher,
+Please excuse my son/daughter from missing ADJECTIVE.class
+yesterday. When NAME.awakened yesterday, I could
+see that his/her nose was ADJECTIVE. He/She also complained.
+of PARTOFBOD.aches and having a sore NOUN, and I took
+him/her to the family NOUN. The doctor quickly diagnosed
+it to be the NUMBER-hour flu and suggested he/she take two
+PLURAL NOUN.with a glass of LIQUID.and go to bed ADVERB.
+Dear Science Teacher,
+Please excuse NAME.for being late for your
+ADJECTIVE.science class. It's my fault. I feel ADJECTIVE.
+NAME.was up until the ADJECTIVE.hours of the
+morning completing his/her ADJECTIVE.project. Just as he/she was
+going out the ADJECTIVE.door, I noticed that his/her only pair of
+PLURAL NOUN.had a NOUN.in them. It took me an hour to
+find my PLURALNOUN.so I could see to VERB.the needle,
+enabling me to sew his/her PLURAL NOUN.back together.
+*/
+

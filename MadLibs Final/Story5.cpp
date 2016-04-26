@@ -30,8 +30,8 @@ void Words5::setNoun15(string value) {
 	noun15 = value;
 }
 
-void Words5::setNoun16(string value) {
-	noun16 = value;
+void Words5::setNoun15(string value) {
+	noun15 = value;
 }
 
 void Words5::setAdjective12(string value) {
@@ -106,8 +106,8 @@ string Words5::getNoun15() {
 	return noun15;
 }
 
-string Words5::getNoun16() {
-	return noun16;
+string Words5::getNoun15() {
+	return noun15;
 }
 
 string Words5::getAdjective12() {

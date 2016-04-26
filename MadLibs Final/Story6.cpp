@@ -33,16 +33,16 @@ void Words6::setAdverb2(string value) {
 	adverb2 = value;
 }
 
+void Words6::setNoun15(string value) {
+	noun15 = value;
+}
+
 void Words6::setNoun16(string value) {
 	noun16 = value;
 }
 
 void Words6::setNoun17(string value) {
 	noun17 = value;
-}
-
-void Words6::setNoun18(string value) {
-	noun18 = value;
 }
 
 void Words6::setNumber2(string value) {
@@ -57,6 +57,14 @@ void Words6::setName6(string value) {
 	name6 = value;
 }
 
+void Words6::setName7(string value) {
+	name7 = value;
+}
+
+void Words6::setPluralNoun12(string value) {
+	pluralNoun12 = value;
+}
+
 void Words6::setPluralNoun13(string value) {
 	pluralNoun13 = value;
 }
@@ -69,12 +77,12 @@ void Words6::setPluralNoun15(string value) {
 	pluralNoun15 = value;
 }
 
-void Words6::setPluralNoun16(string value) {
-	pluralNoun16 = value;
-}
-
 void Words6::setVerb3(string value) {
 	verb3 = value;
+}
+
+void Words6::setPartOfBod4(string value) {
+	partOfBod4 = value;
 }
 
 void Words6::setLiquid1(string value) {
@@ -109,16 +117,16 @@ string Words6::getAdjective20() {
 	return adjective20;
 }
 
+string Words6::getNoun15() {
+	return noun15;
+}
+
 string Words6::getNoun16() {
 	return noun16;
 }
 
 string Words6::getNoun17() {
 	return noun17;
-}
-
-string Words6::getNoun18() {
-	return noun18;
 }
 
 string Words6::getAdverb2() {
@@ -137,6 +145,10 @@ string Words6::getName6() {
 	return name6;
 }
 
+string Words6::getPluralNoun12(){
+	return pluralNoun12;
+}
+
 string Words6::getPluralNoun13(){
 	return pluralNoun13;
 }
@@ -147,10 +159,6 @@ string Words6::getPluralNoun14(){
 
 string Words6::getPluralNoun15(){
 	return pluralNoun15;
-}
-
-string Words6::getPluralNoun16(){
-	return pluralNoun16;
 }
 
 string Words6::getVerb3(){

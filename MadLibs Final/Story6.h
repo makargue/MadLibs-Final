@@ -26,7 +26,7 @@ private:
 	string pluralNoun14;
 	string pluralNoun15;
 	string verb3;
-	string PartOfBod4;
+	string partOfBod4;
 	string liquid1;
 	string story6;
 public:
@@ -45,11 +45,13 @@ public:
 	void setNumber2(string value);
 	void setName5(string value);
 	void setName6(string  value);
+	void setName7(string value);
 	void setPluralNoun12(string value);
 	void setPluralNoun13(string value);
 	void setPluralNoun14(string value);
 	void setPluralNoun15(string value);
 	void setVerb3(string value);
+	void setPartOfBod4(string value);
 	void setLiquid1(string value);
 	void setStory6(string value);
 	string getAdjective14();
@@ -60,17 +62,19 @@ public:
 	string getAdjective19();
 	string getAdjective20();
 	string getAdverb2();
-	string getNoun16();
+	string getNoun15();
 	string getNoun16();
 	string getNoun17();
 	string getNumber2();
 	string getName5();
 	string getName6();
+	string getName7();
 	string getPluralNoun12();
 	string getPluralNoun13();
 	string getPluralNoun14();
 	string getPluralNoun15();
 	string getVerb3();
+	string getPartOfBod4();
 	string getLiquid1();
 	string getStory6();
 };

@@ -131,15 +131,39 @@ using namespace std;
 		cout<<"so I could see to " << setw(11) << left << "." << setw(11) << right << it->getVerb3() << endl;
 		cout<<"the needle, enabling me to sew his/her" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun15() << endl;
 		cout<<" back together";
-
- Dear Science Teacher,
-Please excuse NAME.for being late for your
-ADJECTIVE.science class. It's my fault. I feel ADJECTIVE.
-NAME.was up until the ADJECTIVE.hours of the
-morning completing his/her ADJECTIVE.project. Just as he/she was
-going out the ADJECTIVE.door, I noticed that his/her only pair of
-PLURAL NOUN.had a NOUN.in them. It took me an hour to
-find my PLURALNOUN.so I could see to VERB.the needle,
-enabling me to sew his/her PLURAL NOUN.back together.
 */
 
+
+
+/*STORY SEVEN
+cout<<"This" << setw(11) << left << "." << setw(11) << right << it->getPronoun1() << endl
+cout<<"is open to all" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun16() << endl
+cout<<"with previous" << setw(11) << left << "." << setw(11) << right << it->getNoun18() << endl
+cout<<"music experience and non-band students who wish to participate as members of the colorguard. No previous" << setw(11) << left << "." << setw(11) << right << it->getVerbING4() << endl
+cout<<"experience is required. The" << setw(11) << left << "." << setw(11) << right << it->getVerbING4() << endl
+cout<<"band performs at several events that take place outside of the school day including" << setw(11) << left << "." << setw(11) << right << it->getEvent1() << endl
+cout<<"games, parades," << setw(11) << left << "." << setw(11) << right << it->getEvent() << endl
+cout<<"and local" << setw(11) << left << "." << setw(11) << right << it->getLocation() << endl
+cout<<"Participation in performances as well as summer band camp and occasional evening rehearsals are required. This course is  required for all " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun17() << endl
+cout<<"" << setw(11) << left << "." << setw(11) << right << it->getVerbING14() << endl
+cout<<"in Concert Band, Symphonic Band or Wind Ensemble." << setw(11) << left << "." << setw(11) << right << it->getVerbing14() << endl
+cout<<"Band satisfies" << setw(11) << left << "." << setw(11) << right << it->getNumber3() << endl
+count<<" credit of PE per term";
+
+This PRONOUN is open to all PLURAL NOUN with
+previous NOUN music experience and non-band 
+students who wish to participate as members 
+of the color guard. No previous VERBING 
+experience is required. The VERBING band 
+performs at several events that take place
+outside of the school day including EVENT 
+games, parades, EVENT and local LOCATION. 
+Participation in performances as well as 
+summer band camp and occasional evening 
+rehearsals are required. This course is 
+required for all PLURAL NOUN VERBING in 
+Concert Band, Symphonic Band or Wind Ensemble.
+VERBING Band satisfies NUMBER credit of P E per term.
+
+
+*/

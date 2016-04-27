@@ -5,16 +5,16 @@ void Words7::setPronoun1(string value) {
 	pronoun1 = value;
 }
 
+void Words7::setPluralNoun16(string value) {
+	pluralNoun16 = value;
+}
+
 void Words7::setPluralNoun17(string value) {
 	pluralNoun17 = value;
 }
 
-void Words7::setPluralNoun18(string value) {
-	pluralNoun18 = value;
-}
-
-void Words7::setNoun19(string value) {
-	noun19 = value;
+void Words7::setNoun18(string value) {
+	noun18 = value;
 }
 
 void Words7::setVerbING4(string value) {
@@ -45,16 +45,16 @@ string Words7::getPronoun1() {
 	return pronoun1;
 }
 
+string Words7::getPluralNoun16() {
+	return pluralNoun16;
+}
+
 string Words7::getPluralNoun17() {
 	return pluralNoun17;
 }
 
-string Words7::getPluralNoun18() {
-	return pluralNoun18;
-}
-
-string Words7::getNoun19() {
-	return noun19;
+string Words7::getNoun18() {
+	return noun18;
 }
 
 string Words7::getVerbING4() {

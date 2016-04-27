@@ -108,39 +108,31 @@ using namespace std;
 
 
 /*STORY SIX
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective14() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getName5() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective15() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getPartOfBod4() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun15() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun16() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNumber2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun12() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getLiquid1() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdverb2() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getName6() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective16() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective17() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getName7() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective18() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective19() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getAdjective20() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun13() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getNoun17() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun14() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getVerb3() << endl;
-cout<<"" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun15() << endl;
+		cout<<"Dear Physical Education Teacher, Please excuse my son/daughter from missing" << setw(11) << left << "." << setw(11) << right << it->getAdjective14() << endl;
+		cout<<"class yesterday. When" << setw(11) << left << "." << setw(11) << right << it->getName5() << endl;
+		cout<<"awakened yesterday, I could see that his/her nose was" << setw(11) << left << "." << setw(11) << right << it->getAdjective15() << endl;
+		cout<<"He/She also complained of " << setw(11) << left << "." << setw(11) << right << it->getPartOfBod4() << endl;
+		cout<<"aches and having a sore" << setw(11) << left << "." << setw(11) << right << it->getNoun15() << endl;
+		cout<<"and I took him/her to the family" << setw(11) << left << "." << setw(11) << right << it->getNoun16() << endl;
+		cout<<" The doctor quickly diagnosed it to be the " << setw(11) << left << "." << setw(11) << right << it->getNumber2() << endl;
+		cout<<"-hour flu and suggested he/she take two" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun12() << endl;
+		cout<<"with a glass of " << setw(11) << left << "." << setw(11) << right << it->getLiquid1() << endl;
+		cout<<"and go to bed" << setw(11) << left << "." << setw(11) << right << it->getAdverb2() << endl;
+		cout<<"Dear Science Teacher,Please excuse" << setw(11) << left << "." << setw(11) << right << it->getName6() << endl;
+		cout<<"for being late for your" << setw(11) << left << "." << setw(11) << right << it->getAdjective16() << endl;
+		cout<<"science class. It's my fault. I feel" << setw(11) << left << "." << setw(11) << right << it->getAdjective17() << endl;
+		cout<<"" << setw(11) << left << "." << setw(11) << right << it->getName7() << endl;
+		cout<<"was up until the" << setw(11) << left << "." << setw(11) << right << it->getAdjective18() << endl;
+		cout<<"hours of the morning completing his/her" << setw(11) << left << "." << setw(11) << right << it->getAdjective19() << endl;
+		cout<<"project. Just as he/she was going out the" << setw(11) << left << "." << setw(11) << right << it->getAdjective20() << endl;
+		cout<<"door, I noticed that his/her only pair of" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun13() << endl;
+		cout<<"had a" << setw(11) << left << "." << setw(11) << right << it->getNoun17() << endl;
+		cout<<"in them. It took me an hour to find my" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun14() << endl;
+		cout<<"so I could see to " << setw(11) << left << "." << setw(11) << right << it->getVerb3() << endl;
+		cout<<"the needle, enabling me to sew his/her" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun15() << endl;
+		cout<<" back together";
 
-
-Dear Physical Education Teacher,
-Please excuse my son/daughter from missing ADJECTIVE.class
-yesterday. When NAME.awakened yesterday, I could
-see that his/her nose was ADJECTIVE. He/She also complained.
-of PARTOFBOD.aches and having a sore NOUN, and I took
-him/her to the family NOUN. The doctor quickly diagnosed
-it to be the NUMBER-hour flu and suggested he/she take two
-PLURAL NOUN.with a glass of LIQUID.and go to bed ADVERB.
-Dear Science Teacher,
+ Dear Science Teacher,
 Please excuse NAME.for being late for your
 ADJECTIVE.science class. It's my fault. I feel ADJECTIVE.
 NAME.was up until the ADJECTIVE.hours of the

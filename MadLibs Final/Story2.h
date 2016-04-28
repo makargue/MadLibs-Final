@@ -60,6 +60,6 @@ public:
 	string getPluralNoun3();
 	string getPluralNoun4();
 	string getVerb1();
-	string VerbING2();
-	string Story2();
+	string getVerbING2();
+	string getStory2();
 };

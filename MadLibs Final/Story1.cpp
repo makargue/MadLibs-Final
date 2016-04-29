@@ -73,10 +73,6 @@ string Words1::getOccupation1() {
 	return occupation1;
 }
 
-string Words1::getOccupation1() {
-	return occupation1;
-}
-
 string Words1::getOccupation2() {
 	return occupation2;
 }

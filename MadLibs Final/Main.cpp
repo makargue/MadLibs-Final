@@ -17,7 +17,7 @@ using namespace std;
 
 int main(){
 	//STORY ONE
-	cout << " Thank You! Thank you from the bottom of my " << setw(11) << left << "." << setw(11) << right << getPartOfBod1() << endl;
+	cout << " Thank You! Thank you from the bottom of my " << setw(11) << left << "." << setw(11) << right << it->getPartOfBod1() << endl;
 	cout << " I don't know what to say. I'm speechless. I truly didn't expect to win this " << setw(11) << left << "," << setw(11) << right << it->getAdjective1() << endl;
 	cout << " certainly not with so many _" << setw(11) << left << " " << setw(11) << right << it->getAdjective2() << endl;
 	cout << " actors competing in the same category.First and foremost, my thanks to " << setw(11) << left << "." << setw(11) << right << it->getFemaleName1() << endl;
@@ -58,7 +58,7 @@ int main(){
 	cout << "  Rock music is played by " << setw(11) << left << "." << setw(11) << right << it->getAdjective8() << endl;
 	cout << " groups of young men who wear their hair below their " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun5() << endl;
 	cout << " They also wear very odd and colorful " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun6() << endl;
-	cout << "and often have beards. The groups have attractive names such as "The " << setw(11) << left << """ << setw(11) << right << it->getPluralAnimal1() << endl;
+	cout << "and often have beards. The groups have attractive names such as The " << setw(11) << left << "S" << setw(11) << right << it->getPluralAnimal1() << endl;
 	cout << "or " << setw(11) << left << "." << setw(11) << right << it->getCelebrity1() << endl;
 	cout << " and The Three " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun7() << endl;
 	cout << " They usually play electric" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun8() << endl;

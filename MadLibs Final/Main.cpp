@@ -30,7 +30,16 @@ int main(Words1){
 		occupation2 = occupation2;
 		partOfBod1 = partOfBod1;
 
-	cout << "Enter a body part"<<endl;
+	cout << "Enter a noun"=noun1<<endl;
+	cout << "Enter an adjective" = adjective1 << endl;
+	cout << "Enter an adjective" = adjective2 << endl;
+	cout << "Enter an adjective" = adjective3 << endl;
+	cout << "Enter a name" = femaleName1 << endl;
+	cout << "Enter a name" = maleName1 << endl;
+	cout << "Enter a job" = occupation1 << endl;
+	cout << "Enter a job" = occupation2 << endl;
+	cout << "Enter a body part" = partOfBod1 << endl;
+	cout << "Enter a verb ending in ING" = verbING1 << endl;
 
 	//STORY ONE
 	cout << " Thank You! Thank you from the bottom of my " << getPartOfBod1() << endl;

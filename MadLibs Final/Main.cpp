@@ -16,54 +16,9 @@
 using namespace std;
 
 int main(){
-	vector<Words1> words1;
-	string noun1, adjective1, adjective2, adjective3, femalName1, maleName1, occupation1, occupation2, partOfBod1, verbING1;
-	ifstream in;
-	ofstream out;
-
-	in.open("items.txt");
-	if (!in.is_open()) {
-		cout << "Unable to open items.txt" << endl;
-		system("pause");
-		return -1;
-	}
-
-	while (!in.eof() && in.good()) {
-		Item temp;
-		in >> qty;
-		in >> name;
-		in >> spr;
-		in >> sales;
-		in >> totalsales;
-		in >> pprice;
-		in >> profit;
-		in >> srp;
-		in >> forwhat;
-		temp.setName(name);
-		temp.setQty(qty);
-
-		item.push_back(temp);
-	}
-	in.close();
-
-	while (!in.eof() && in.good()) {
-		in >> qty >> sales;
-
-		for (vector<Item>::iterator it = item.begin(); it != item.end(); it++) {
-			if (it->getQty() == qty) {
-				it->addSale(sales);
-				break;
-			}
-		}
-	}
-	in.close();
-
-	out.open("output.txt");
-
-	for (vector<Item>::iterator it = item.begin(); it != item.end(); it++) {
 
 	//STORY ONE
-	cout << " Thank You! Thank you from the bottom of my " << setw(11) << left << "." << setw(11) << right << it->getPartOfBod1()->Words1<< endl;
+	cout << " Thank You! Thank you from the bottom of my " << setw(11) << left << "." << setw(11) << right <<it-> getPartOfBod1()->Words1<< endl;
 	cout << " I don't know what to say. I'm speechless. I truly didn't expect to win this " << setw(11) << left << "," << setw(11) << right << it->getAdjective1()->Words1 << endl;
 	cout << " certainly not with so many _" << setw(11) << left << " " << setw(11) << right << it->getAdjective2()->Words1 << endl;
 	cout << " actors competing in the same category.First and foremost, my thanks to " << setw(11) << left << "." << setw(11) << right << it->getFemaleName1()->Words1 << endl;

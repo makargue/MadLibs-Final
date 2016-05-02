@@ -15,11 +15,26 @@
 
 using namespace std;
 
-int main(){
+class MadLibs{
+	
+};
+int main(Words1){
+	int noun1, adjective1, adjective2, adjective3, femaleName1, maleName1, occupation1, occupation2, partOfBod1, verbING1;
+		noun1 = noun1;
+		adjective1 = adjective1;
+		adjective2 = adjective2;
+		adjective3 = adjective3;
+		femaleName1 = femaleName1;
+		maleName1 = maleName1;
+		occupation1 = occupation1;
+		occupation2 = occupation2;
+		partOfBod1 = partOfBod1;
+
+	cout << "Enter a body part"<<endl;
 
 	//STORY ONE
-	cout << " Thank You! Thank you from the bottom of my " << setw(11) << left << "." << setw(11) << right <<it-> getPartOfBod1()->Words1<< endl;
-	cout << " I don't know what to say. I'm speechless. I truly didn't expect to win this " << setw(11) << left << "," << setw(11) << right << it->getAdjective1()->Words1 << endl;
+	cout << " Thank You! Thank you from the bottom of my " << getPartOfBod1() << endl;
+	cout << " I don't know what to say. I'm speechless. I truly didn't expect to win this " getAdjective1()<< endl;
 	cout << " certainly not with so many _" << setw(11) << left << " " << setw(11) << right << it->getAdjective2()->Words1 << endl;
 	cout << " actors competing in the same category.First and foremost, my thanks to " << setw(11) << left << "." << setw(11) << right << it->getFemaleName1()->Words1 << endl;
 	cout << " You couldn't work with a better " << setw(11) << left << "." << setw(11) << right << it->getOccupation1()->Words1 << endl;
@@ -28,9 +43,6 @@ int main(){
 	cout << " director. I must also thank" << setw(11) << left << "." << setw(11) << right << it->getMaleName1()->Words1 << endl;
 	cout << " who wrote a" << setw(11) << left << "." << setw(11) << right << it->getAdjective3()->Words1 << endl;
 	cout << "script for me. Of course, none of this would be happening if it weren't for my agent, who convinced the network that I could play a 75 year - old, retired" << setw(11) << left << "." << setw(11) << right << it->getNoun1()->Words1 << endl;
-
-
-
 
 	//STORY TWO
 	cout << "I love to " << setw(11) << left << "." << setw(11) << right << it->getVerb1()->Words2 << endl;
@@ -49,7 +61,6 @@ int main(){
 	cout << "compromise: After dinner I can play" << setw(11) << left << "!" << setw(11) << right << it->getNumber1()->Words2 << endl;
 	cout << "hours of video games, provided I help clear the" << setw(11) << left << "!" << setw(11) << right << it->getNoun5()->Words2 << endl;
 	cout << "and wash the" << setw(11) << left << " " << setw(11) << right << it->getPluralNoun4()->Words2 << endl;
-
 
 
 

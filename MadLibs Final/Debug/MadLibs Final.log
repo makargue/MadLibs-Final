@@ -1,282 +1,104 @@
-﻿Build started 5/2/2016 7:49:10 AM.
+﻿Build started 5/3/2016 8:30:25 AM.
      1>Project "\\dav.edu\Students\HS19$\mnargue02\My Documents\Visual Studio 2013\Projects\MadLibs Final\MadLibs Final\MadLibs Final.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Main.cpp
          Main.cpp
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(21): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(21): error C2227: left of '->getPartOfBod1' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(37): error C2039: 'verb1' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(38): error C2039: 'noun2' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(39): error C2039: 'noun3' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(40): error C2039: 'verbING2' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(41): error C2039: 'adjective4' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(42): error C2039: 'partOfBod2' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(43): error C2039: 'pluralNoun1' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(44): error C2039: 'adjective5' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(45): error C2039: 'partOfBod3' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(46): error C2039: 'pluralNoun2' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(47): error C2065: 'it' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(47): error C2227: left of '->getAdjective6' must point to class/struct/union/generic type
                  type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(21): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22): error C2227: left of '->getAdjective1' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(47): error C2227: left of '->Words2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(48): error C2065: 'it' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(48): error C2227: left of '->getPluralNoun3' must point to class/struct/union/generic type
                  type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(23): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(23): error C2227: left of '->getAdjective2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(48): error C2227: left of '->Words2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(49): error C2065: 'it' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(49): error C2227: left of '->getNoun4' must point to class/struct/union/generic type
                  type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(23): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(24): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(24): error C2227: left of '->getFemaleName1' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(49): error C2227: left of '->Words2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(50): error C2065: 'it' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(50): error C2227: left of '->getNumber1' must point to class/struct/union/generic type
                  type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(24): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(25): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(25): error C2227: left of '->getOccupation1' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(50): error C2227: left of '->Words2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(51): error C2065: 'it' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(51): error C2227: left of '->getNoun5' must point to class/struct/union/generic type
                  type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(25): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(26): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(26): error C2227: left of '->getVerbING1' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(51): error C2227: left of '->Words2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(52): error C2065: 'it' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(52): error C2227: left of '->getPluralNoun4' must point to class/struct/union/generic type
                  type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(26): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(27): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(27): error C2227: left of '->getOccupation2' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(27): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(28): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(28): error C2227: left of '->getMaleName1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(28): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(29): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(29): error C2227: left of '->getAdjective3' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(29): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(30): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(30): error C2227: left of '->getNoun1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(30): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(36): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(36): error C2227: left of '->getVerb1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(36): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(37): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(37): error C2227: left of '->getNoun2' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(37): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(38): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(38): error C2227: left of '->getNoun3' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(38): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(39): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(39): error C2227: left of '->getVerbING2' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(39): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(40): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(40): error C2227: left of '->getAdjective4' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(40): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(41): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(41): error C2227: left of '->getPartOfBod2' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(41): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(42): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(42): error C2227: left of '->getPluralNoun1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(42): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(43): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(43): error C2227: left of '->getAdjective5' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(43): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(44): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(44): error C2227: left of '->getPartOfBod3' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(44): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(45): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(45): error C2227: left of '->getPluralNoun2' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(45): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(46): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(46): error C2227: left of '->getAdjective6' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(46): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(47): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(47): error C2227: left of '->getPluralNoun3' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(47): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(48): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(48): error C2227: left of '->getNoun4' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(48): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(49): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(49): error C2227: left of '->getNumber1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(49): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(50): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(50): error C2227: left of '->getNoun5' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(50): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(51): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(51): error C2227: left of '->getPluralNoun4' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(51): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(57): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(57): error C2227: left of '->getLastName1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(57): error C2227: left of '->Words3' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(58): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(58): error C2227: left of '->getLastName2' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(58): error C2227: left of '->Words3' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(59): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(59): error C2227: left of '->getAdjective8' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(59): error C2227: left of '->Words3' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(60): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(60): error C2227: left of '->getPluralNoun5' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(60): error C2227: left of '->Words3' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(61): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(61): error C2227: left of '->getPluralNoun6' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(61): error C2227: left of '->Words3' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(62): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(62): error C2227: left of '->getPluralAnimal1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(62): error C2227: left of '->Words3' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(63): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(63): error C2227: left of '->getCelebrity1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(63): error C2227: left of '->Words3' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(64): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(64): error C2227: left of '->getPluralNoun7' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(64): fatal error C1003: error count exceeds 100; stopping compilation
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(52): error C2227: left of '->Words2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(194): fatal error C1075: end of file found before the left brace '{' at '\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22)' was matched
          Game.cpp
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(21): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(21): error C2227: left of '->getPartOfBod1' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(37): error C2039: 'verb1' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(38): error C2039: 'noun2' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(39): error C2039: 'noun3' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(40): error C2039: 'verbING2' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(41): error C2039: 'adjective4' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(42): error C2039: 'partOfBod2' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(43): error C2039: 'pluralNoun1' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(44): error C2039: 'adjective5' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(45): error C2039: 'partOfBod3' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(46): error C2039: 'pluralNoun2' : is not a member of 'Words'
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(47): error C2065: 'it' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(47): error C2227: left of '->getAdjective6' must point to class/struct/union/generic type
                  type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(21): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22): error C2227: left of '->getAdjective1' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(47): error C2227: left of '->Words2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(48): error C2065: 'it' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(48): error C2227: left of '->getPluralNoun3' must point to class/struct/union/generic type
                  type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(23): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(23): error C2227: left of '->getAdjective2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(48): error C2227: left of '->Words2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(49): error C2065: 'it' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(49): error C2227: left of '->getNoun4' must point to class/struct/union/generic type
                  type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(23): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(24): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(24): error C2227: left of '->getFemaleName1' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(49): error C2227: left of '->Words2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(50): error C2065: 'it' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(50): error C2227: left of '->getNumber1' must point to class/struct/union/generic type
                  type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(24): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(25): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(25): error C2227: left of '->getOccupation1' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(50): error C2227: left of '->Words2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(51): error C2065: 'it' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(51): error C2227: left of '->getNoun5' must point to class/struct/union/generic type
                  type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(25): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(26): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(26): error C2227: left of '->getVerbING1' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(51): error C2227: left of '->Words2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(52): error C2065: 'it' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(52): error C2227: left of '->getPluralNoun4' must point to class/struct/union/generic type
                  type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(26): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(27): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(27): error C2227: left of '->getOccupation2' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(27): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(28): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(28): error C2227: left of '->getMaleName1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(28): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(29): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(29): error C2227: left of '->getAdjective3' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(29): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(30): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(30): error C2227: left of '->getNoun1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(30): error C2227: left of '->Words1' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(36): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(36): error C2227: left of '->getVerb1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(36): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(37): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(37): error C2227: left of '->getNoun2' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(37): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(38): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(38): error C2227: left of '->getNoun3' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(38): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(39): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(39): error C2227: left of '->getVerbING2' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(39): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(40): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(40): error C2227: left of '->getAdjective4' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(40): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(41): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(41): error C2227: left of '->getPartOfBod2' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(41): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(42): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(42): error C2227: left of '->getPluralNoun1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(42): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(43): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(43): error C2227: left of '->getAdjective5' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(43): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(44): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(44): error C2227: left of '->getPartOfBod3' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(44): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(45): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(45): error C2227: left of '->getPluralNoun2' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(45): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(46): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(46): error C2227: left of '->getAdjective6' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(46): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(47): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(47): error C2227: left of '->getPluralNoun3' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(47): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(48): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(48): error C2227: left of '->getNoun4' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(48): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(49): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(49): error C2227: left of '->getNumber1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(49): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(50): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(50): error C2227: left of '->getNoun5' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(50): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(51): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(51): error C2227: left of '->getPluralNoun4' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(51): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(57): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(57): error C2227: left of '->getLastName1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(57): error C2227: left of '->Words3' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(58): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(58): error C2227: left of '->getLastName2' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(58): error C2227: left of '->Words3' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(59): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(59): error C2227: left of '->getAdjective8' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(59): error C2227: left of '->Words3' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(60): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(60): error C2227: left of '->getPluralNoun5' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(60): error C2227: left of '->Words3' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(61): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(61): error C2227: left of '->getPluralNoun6' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(61): error C2227: left of '->Words3' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(62): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(62): error C2227: left of '->getPluralAnimal1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(62): error C2227: left of '->Words3' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(63): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(63): error C2227: left of '->getCelebrity1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(63): error C2227: left of '->Words3' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(64): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(64): error C2227: left of '->getPluralNoun7' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(64): fatal error C1003: error count exceeds 100; stopping compilation
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(52): error C2227: left of '->Words2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\game.cpp(9): error C2601: 'main' : local function definitions are illegal
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22): this line contains a '{' which has not yet been matched
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\game.cpp(13): fatal error C1075: end of file found before the left brace '{' at '\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22)' was matched
          Generating Code...
      1>Done Building Project "\\dav.edu\Students\HS19$\mnargue02\My Documents\Visual Studio 2013\Projects\MadLibs Final\MadLibs Final\MadLibs Final.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:02.77
+Time Elapsed 00:00:02.82

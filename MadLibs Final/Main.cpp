@@ -5,6 +5,8 @@
 #include <string>
 #include <vector>
 
+#include "Words.h"
+
 #include "Story1.cpp"
 #include "Story2.cpp"
 #include "Story3.cpp"
@@ -12,6 +14,8 @@
 #include "Story5.cpp"
 #include "Story6.cpp"
 #include "Story7.cpp"
+
+#include "Story.h"
 
 using namespace std;
 
@@ -30,17 +34,33 @@ int main(Words1){
 	occupation2 = occupation2;
 	partOfBod1 = partOfBod1;
 
-	cout << "Enter a noun" = noun1 << endl;
-	cout << "Enter an adjective" = adjective1 << endl;
-	cout << "Enter an adjective" = adjective2 << endl;
-	cout << "Enter an adjective" = adjective3 << endl;
-	cout << "Enter a name" = femaleName1 << endl;
-	cout << "Enter a name" = maleName1 << endl;
-	cout << "Enter a job" = occupation1 << endl;
-	cout << "Enter a job" = occupation2 << endl;
-	cout << "Enter a body part" = partOfBod1 << endl;
-	cout << "Enter a verb ending in ING" = verbING1 << endl;
+	Words words;
 
+	
+	cout << "Enter a noun:";
+	cin >> words.noun1;
+	cout << "Enter an adjective:";
+	cin >> words.adjective1;
+	cout << "Enter an adjective:";
+	cin >> words.adjective2;
+	cout << "Enter an adjective";
+	cin >> words.adjective3;
+	cout << "Enter a name:";
+	cin >> words.femaleName1;
+	cout << "Enter a name:";
+	cin >> words.maleName1;
+	cout << "Enter a job:";
+	cin >> occupation1;
+	cout << "Enter a job:";
+	cin >> occupation2;
+	cout << "Enter a body part:";
+	cin >> partOfBod1;
+	cout << "Enter a verb ending in ING";
+	cin >> verbING1;
+
+
+	StoryOne one;
+	one.makeStory(words);
 
 	//STORY ONE
 	cout << " Thank You! Thank you from the bottom of my " << getPartOfBod1() << endl;
@@ -79,7 +99,7 @@ int main(Words1){
 		//STORY THREE
 		cout << "Young people today would rather listen to a good rock music concert than to Johann Sebastian " << setw(11) << left << "." << setw(11) << right << it->getLastName1()->Words3 << endl;
 		cout << " or to Ludvig von" << setw(11) << left << "." << setw(11) << right << it->getLastName2()->Words3 << endl;
-S		cout << "  Rock music is played by " << setw(11) << left << "." << setw(11) << right << it->getAdjective8()->Words3 << endl;
+		cout << "  Rock music is played by " << setw(11) << left << "." << setw(11) << right << it->getAdjective8()->Words3 << endl;
 		cout << " groups of young men who wear their hair below their " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun5()->Words3 << endl;
 		cout << " They also wear very odd and colorful " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun6()->Words3 << endl;
 		cout << "and often have beards. The groups have attractive names such as The " << setw(11) << left << "S" << setw(11) << right << it->getPluralAnimal1()->Words3 << endl;

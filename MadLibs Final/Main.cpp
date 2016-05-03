@@ -19,11 +19,8 @@
 
 using namespace std;
 
-class MadLibs{
-	
-};
 int main(Words1){
-	int noun1, adjective1, adjective2, adjective3, femaleName1, maleName1, occupation1, occupation2, partOfBod1, verbING1;
+	string noun1, adjective1, adjective2, adjective3, femaleName1, maleName1, occupation1, occupation2, partOfBod1, verbING1;
 	noun1 = noun1;
 	adjective1 = adjective1;
 	adjective2 = adjective2;
@@ -62,7 +59,7 @@ int main(Words1){
 	StoryOne one;
 	one.makeStory(words);
 
-	//STORY ONE
+	/*STORY ONE
 	cout << " Thank You! Thank you from the bottom of my " << getPartOfBod1() << endl;
 	cout << " I don't know what to say. I'm speechless. I truly didn't expect to win this " getAdjective1() << endl;
 	cout << " certainly not with so many _" << setw(11) << left << " " << setw(11) << right << it->getAdjective2()->Words1 << endl;
@@ -193,3 +190,4 @@ int main(Words1){
 		cout << "Band satisfies" << setw(11) << left << "." << setw(11) << right << it->getNumber3()->Words7 << endl;
 		cout << " credit of PE per term";
 	}
+	*/

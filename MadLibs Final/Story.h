@@ -24,9 +24,9 @@ public:
 		cout << " You couldn't work with a better " << words.occupation1 << endl;
 		cout << " And I'm sure I wouldn't be " << words.verbING1 << endl;
 		cout << " here tonight if it weren't for my " << words.occupation2 << endl;
-		cout << " director. I must also thank" << setw(11) << left << "." << setw(11) << right << it->getMaleName1()->Words1 << endl;
-		cout << " who wrote a" << setw(11) << left << "." << setw(11) << right << it->getAdjective3()->Words1 << endl;
-		cout << "script for me. Of course, none of this would be happening if it weren't for my agent, who convinced the network that I could play a 75 year - old, retired" << setw(11) << left << "." << setw(11) << right << it->getNoun1()->Words1 << endl;
+		cout << " director. I must also thank" << words.maleName1<< endl;
+		cout << " who wrote a" << setw(11) << left << "." << words.adjective3<< endl;
+		cout << "script for me. Of course, none of this would be happening if it weren't for my agent, who convinced the network that I could play a 75 year - old, retired" << words.noun1 << endl;
 
 	}
 };

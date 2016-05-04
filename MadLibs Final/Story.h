@@ -44,11 +44,11 @@ public:
 		cout << ", he also seems to think they have" << words.adjective5<< endl;
 		cout << "side effects on one's"<< words.partOfBod3 << endl;
 		cout << "Both of my " << words.pluralNoun2<< endl;
-		cout << "think this is due to a " << setw(11) << left << "." << setw(11) << right << it->getAdjective6()->Words2 << endl;
-		cout << "use of violence in the majority of the " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun3()->Words2 << endl;
-		cout << "Finally, we all arrived at a" << setw(11) << left << "!" << setw(11) << right << it->getNoun4()->Words2 << endl;
-		cout << "compromise: After dinner I can play" << setw(11) << left << "!" << setw(11) << right << it->getNumber1()->Words2 << endl;
-		cout << "hours of video games, provided I help clear the" << setw(11) << left << "!" << setw(11) << right << it->getNoun5()->Words2 << endl;
-		cout << "and wash the" << setw(11) << left << " " << setw(11) << right << it->getPluralNoun4()->Words2 << endl;
+		cout << "think this is due to a " << words.adjective6 << endl;
+		cout << "use of violence in the majority of the " << words.pluralNoun3 << endl;
+		cout << "Finally, we all arrived at a" << words.noun4 << endl;
+		cout << "compromise: After dinner I can play" << words.number1<< endl;
+		cout << "hours of video games, provided I help clear the" << words.noun5<< endl;
+		cout << "and wash the" <<words.pluralNoun4<< endl;
 	}
 };

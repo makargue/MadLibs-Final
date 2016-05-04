@@ -52,3 +52,22 @@ public:
 		cout << "and wash the" <<words.pluralNoun4<< endl;
 	}
 };
+
+class StoryTwo :public Story{
+public:
+	void makeStory(Words words){
+		cout << "Young people today would rather listen to a good rock music concert than to Johann Sebastian " << setw(11) << left << "." << setw(11) << right << it->getLastName1()->Words3 << endl;
+		cout << " or to Ludvig von" << setw(11) << left << "." << setw(11) << right << it->getLastName2()->Words3 << endl;
+		cout << "  Rock music is played by " << setw(11) << left << "." << setw(11) << right << it->getAdjective8()->Words3 << endl;
+		cout << " groups of young men who wear their hair below their " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun5()->Words3 << endl;
+		cout << " They also wear very odd and colorful " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun6()->Words3 << endl;
+		cout << "and often have beards. The groups have attractive names such as The " << setw(11) << left << "S" << setw(11) << right << it->getPluralAnimal1()->Words3 << endl;
+		cout << "or " << setw(11) << left << "." << setw(11) << right << it->getCelebrity1()->Words3 << endl;
+		cout << " and The Three " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun7()->Words3 << endl;
+		cout << " They usually play electric" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun8()->Words3 << endl;
+		cout << "One member of the group usually sits on a raised platform and sets the rhythm by beating his " << setw(11) << left << "." << setw(11) << right << it->getNoun6()->Words3 << endl;
+		cout << " The songs are mostly about some fellow who has been rejected by his " << setw(11) << left << "." << setw(11) << right << it->getNoun7()->Words3 << endl;
+		cout << "They are very sad and when young girls hear them, they often get tears in their  " << setw(11) << left << "." << setw(11) << right << it->getPluralNoun9()->Words3 << endl;
+	
+	}
+};

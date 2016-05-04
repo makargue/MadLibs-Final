@@ -11,5 +11,5 @@ public:
 	string adjective8, celebrity1, lastName1, lastName2, noun6, noun7, pluralAnimal1, pluralNoun5, pluralNoun6, pluralNoun7, pluralNOun8, pluralNoun9;
 	string adjective9, adjective10, adjective11, pluralNoun10, pluralNoun11, noun8, noun9, noun10, name1, name2, state1, state2, plant1;
 	string noun11, noun12, noun13, noun14, noun15, adjective12, adjective13, verb2, verbING3, name4, animal1, adverb1, feeling1, conjunction1;
-
+	string adjective14, adjective15, adjective16, adjective17, adjective18, adjective19, adjective20, adverb2, noun15, noun16, noun17, number2, name5, name6, name7, pluralNoun12, pluralNoun13, pluralNoun14, pluralNoun15, verb3, partOfBod4, liquid1;
 };

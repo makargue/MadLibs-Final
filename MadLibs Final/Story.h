@@ -80,7 +80,7 @@ public:
 		cout << " told me about. We get to eat " << words.pluralNoun10 << endl;
 		cout << " and" << words.pluralNoun11 << endl;
 		cout << "every day of the week! This week I get to try out all the activities and sports. We are canoeing in " << words.adjective10 << endl;
-		cout << " water on Lake " << words.nName2 << endl;
+		cout << " water on Lake " << words.name2 << endl;
 		cout << " We also are learning how to dive off the" << words.adjective11 << endl;
 		cout << " diving board! I tried archery and I wasn't very good—I hit a(n)" << words.plant1 << endl;
 		cout << " by mistake. I'll practice and get better, though. For Arts and Crafts, I made a clay" << words.noun8 << endl;
@@ -96,9 +96,22 @@ public:
 	}
 };
 
-class StoryFour :public Story{
+class StoryFive :public Story{
 public:
-	void makeStory(Word words){
-
+	void makeStory(Words words){
+		cout << "The world's" << words.adjective12<< endl;
+		cout << "supersonic" << words.animal1 << endl;
+		cout << "unrivalled in speed returns once more. Always the drifter,Sonic goes" << words.adverb1<< endl;
+		cout << "" << words.conjunction1 << endl;
+		cout << "the wind takes him, and lives life accordingly to his own" << words.noun11 << endl;
+		cout << "rather than the" << words.noun12 << endl;
+		cout << "of those around him. He's basically  " << words.adjective13<< endl;
+		cout << "but when he gets fired up over an injustice, his" << words.noun13 << endl;
+		cout << "explodes with surprising consequences. Always at the" << words.verbING3<< endl;
+		cout << "end of this " << words.feeling1<< endl;
+		cout << "is his arch-enemy Dr. " << words.name4 << endl;
+		cout << "whose fiendish plots to take over the world are constantly being foiled by Sonic. Saving the world is a nice" << words.noun14 << endl;
+		cout << "but Sonic is soon off to" << words.verb2 << endl;
+		cout << "his next" << words.noun15<< endl;
 	}
 };

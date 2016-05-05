@@ -120,11 +120,11 @@ class StorySix :public Story{
 public:
 	void makeStory(Words words){
 		cout << "Dear Physical Education Teacher, Please excuse my son/daughter from missing" << words.adjective14<< endl;
-		cout << "class yesterday. When" << words.mame5 << endl;
+		cout << "class yesterday. When" << words.name5 << endl;
 		cout << "awakened yesterday, I could see that his/her nose was" << words.adjective15 << endl;
 		cout << "He/She also complained of " << words.partOfBod4<< endl;
 		cout << "aches and having a sore" << words.noun15 << endl;
-		cout << "and I took him/her to the family" << get.noun16 << endl;
+		cout << "and I took him/her to the family" << words.noun16 << endl;
 		cout << " The doctor quickly diagnosed it to be the " << words.number2 << endl;
 		cout << "-hour flu and suggested he/she take two" << words.pluralNoun12<< endl;
 		cout << "with a glass of " << words.liquid1<< endl;
@@ -142,5 +142,24 @@ public:
 		cout << "so I could see to " << words.verb3 << endl;
 		cout << "the needle, enabling me to sew his/her" << words.pluralNoun15<< endl;
 		cout << " back together";
+	}
+};
+
+class StorySeven :public Story{
+public:
+	void makeStory(Words words){
+		cout << "This" << words.pronoun1 << endl;
+		cout << "is open to all" << words.pluralNoun16<< endl;
+		cout << "with previous" << words.noun18<< endl;
+		cout << "music experience and non-band students who wish to participate as members of the colorguard. No previous" << words.verbING4<< endl;
+		cout << "experience is required. The" << words.verbING4 << endl;
+		cout << "band performs at several events that take place outside of the school day including" << words.event1 << endl;
+		cout << "games, parades," << words.event2 << endl;
+		cout << "and local" << words.location1 << endl;
+		cout << "Participation in performances as well as summer band camp and occasional evening rehearsals are required. This course is  required for all " <<words.pluralNoun17<< endl;
+		cout << "" << setw(11) << left << "." << words.verbING4 << endl;
+		cout << "in Concert Band, Symphonic Band or Wind Ensemble." << words.verbING4<< endl;
+		cout << "Band satisfies" << words.number3<< endl;
+		cout << " credit of PE per term";
 	}
 };

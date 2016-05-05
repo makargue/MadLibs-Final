@@ -115,3 +115,10 @@ public:
 		cout << "his next" << words.noun15<< endl;
 	}
 };
+
+class StorySix :public Story{
+public:
+	void makeStory(Words words){
+
+	}
+};

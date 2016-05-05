@@ -71,3 +71,13 @@ public:
 	
 	}
 };
+
+class StoryFour :public Story{
+public:
+	void makeStory(Words words){
+
+
+
+
+	}
+};

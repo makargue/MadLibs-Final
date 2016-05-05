@@ -119,28 +119,28 @@ public:
 class StorySix :public Story{
 public:
 	void makeStory(Words words){
-		cout << "Dear Physical Education Teacher, Please excuse my son/daughter from missing" << setw(11) << left << "." << setw(11) << right << it->getAdjective14()->Words6 << endl;
-		cout << "class yesterday. When" << setw(11) << left << "." << setw(11) << right << it->getName5()->Words6 << endl;
-		cout << "awakened yesterday, I could see that his/her nose was" << setw(11) << left << "." << setw(11) << right << it->getAdjective15()->Words6 << endl;
-		cout << "He/She also complained of " << setw(11) << left << "." << setw(11) << right << it->getPartOfBod4()->Words6 << endl;
-		cout << "aches and having a sore" << setw(11) << left << "." << setw(11) << right << it->getNoun15()->Words6 << endl;
-		cout << "and I took him/her to the family" << setw(11) << left << "." << setw(11) << right << it->getNoun16()->Words6 << endl;
-		cout << " The doctor quickly diagnosed it to be the " << setw(11) << left << "." << setw(11) << right << it->getNumber2()->Words6 << endl;
-		cout << "-hour flu and suggested he/she take two" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun12()->Words6 << endl;
-		cout << "with a glass of " << setw(11) << left << "." << setw(11) << right << it->getLiquid1()->Words6 << endl;
-		cout << "and go to bed" << setw(11) << left << "." << setw(11) << right << it->getAdverb2()->Words6 << endl;
-		cout << "Dear Science Teacher,Please excuse" << setw(11) << left << "." << setw(11) << right << it->getName6()->Words6 << endl;
-		cout << "for being late for your" << setw(11) << left << "." << setw(11) << right << it->getAdjective16()->Words6 << endl;
-		cout << "science class. It's my fault. I feel" << setw(11) << left << "." << setw(11) << right << it->getAdjective17()->Words6 << endl;
-		cout << "" << setw(11) << left << "." << setw(11) << right << it->getName7()->Words6 << endl;
-		cout << "was up until the" << setw(11) << left << "." << setw(11) << right << it->getAdjective18()->Words6 << endl;
-		cout << "hours of the morning completing his/her" << setw(11) << left << "." << setw(11) << right << it->getAdjective19()->Words6 << endl;
-		cout << "project. Just as he/she was going out the" << setw(11) << left << "." << setw(11) << right << it->getAdjective20()->Words6 << endl;
-		cout << "door, I noticed that his/her only pair of" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun13()->Words6 << endl;
-		cout << "had a" << setw(11) << left << "." << setw(11) << right << it->getNoun17()->Words6 << endl;
-		cout << "in them. It took me an hour to find my" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun14()->Words6 << endl;
-		cout << "so I could see to " << setw(11) << left << "." << setw(11) << right << it->getVerb3()->Words6 << endl;
-		cout << "the needle, enabling me to sew his/her" << setw(11) << left << "." << setw(11) << right << it->getPluralNoun15()->Words6 << endl;
+		cout << "Dear Physical Education Teacher, Please excuse my son/daughter from missing" << words.adjective14<< endl;
+		cout << "class yesterday. When" << words.mame5 << endl;
+		cout << "awakened yesterday, I could see that his/her nose was" << words.adjective15 << endl;
+		cout << "He/She also complained of " << words.partOfBod4<< endl;
+		cout << "aches and having a sore" << words.noun15 << endl;
+		cout << "and I took him/her to the family" << get.noun16 << endl;
+		cout << " The doctor quickly diagnosed it to be the " << words.number2 << endl;
+		cout << "-hour flu and suggested he/she take two" << words.pluralNoun12<< endl;
+		cout << "with a glass of " << words.liquid1<< endl;
+		cout << "and go to bed" << words.adverb2 << endl;
+		cout << "Dear Science Teacher,Please excuse" <<words.name6 << endl;
+		cout << "for being late for your" << words.adjective16<< endl;
+		cout << "science class. It's my fault. I feel" << words.adjective17<< endl;
+		cout << "" << words.name7 << endl;
+		cout << "was up until the" << words.adjective18 << endl;
+		cout << "hours of the morning completing his/her" << words.adjective19<< endl;
+		cout << "project. Just as he/she was going out the" <<words.adjective20<< endl;
+		cout << "door, I noticed that his/her only pair of" << words.pluralNoun13<< endl;
+		cout << "had a" <<words.noun17 << endl;
+		cout << "in them. It took me an hour to find my" << words.pluralNoun14<< endl;
+		cout << "so I could see to " << words.verb3 << endl;
+		cout << "the needle, enabling me to sew his/her" << words.pluralNoun15<< endl;
 		cout << " back together";
 	}
 };

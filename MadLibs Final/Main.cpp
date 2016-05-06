@@ -47,13 +47,13 @@ int main(Words1){
 	cout << "Enter a name:";
 	cin >> words.maleName1;
 	cout << "Enter a job:";
-	cin >> occupation1;
+	cin >> words.occupation1;
 	cout << "Enter a job:";
-	cin >> occupation2;
+	cin >> words.occupation2;
 	cout << "Enter a body part:";
-	cin >> partOfBod1;
+	cin >> words.partOfBod1;
 	cout << "Enter a verb ending in ING";
-	cin >> verbING1;
+	cin >> words.verbING1;
 
 
 	StoryOne one;
@@ -90,18 +90,32 @@ int main(Words2){
 	cin >> words.adjective6;
 	cout << "Enter an adjective";
 	cin >> words.adjective7;
-	cout << "Enter a name:";
-	cin >> words.femaleName1;
-	cout << "Enter a name:";
-	cin >> words.maleName1;
-	cout << "Enter a job:";
-	cin >> occupation1;
-	cout << "Enter a job:";
-	cin >> occupation2;
-	cout << "Enter a body part:";
-	cin >> partOfBod1;
-	cout << "Enter a verb ending in ING";
-	cin >> verbING1;
+	cout << "Enter a noun:";
+	cin >> words.noun2;
+	cout << "Enter a noun";
+	cin >> words.noun3;
+	cout << "Enter a noun:";
+	cin >> words.noun4;
+	cout << "Enter a noun:";
+	cin >> words.noun5;
+	cout << "Enter a number:";
+	cin >> words.number1;
+	cout << "Enter a body part";
+	cin >> words.partOfBod2;
+	cout << "Enter a body part";
+	cin >> words.partOfBod3;
+	cout << "Enter a plural noun";
+	cin >> words.pluralNoun1;
+	cout << "Enter a plural noun";
+	cin >> words.pluralNoun2;
+	cout << "Enter a plural noun";
+	cin >> words.pluralNoun3;
+	cout << "Enter a plural noun";
+	cin >> words.pluralNoun4;
+	cout << "Enter a verb";
+	cin >> words.verb1;
+	cout << "Enter a verb ending in ing";
+	cin >> words.verbING2;
 
 
 	StoryOne one;

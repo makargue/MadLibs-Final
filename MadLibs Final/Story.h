@@ -123,8 +123,8 @@ public:
 		cout << "class yesterday. When" << words.name5 << endl;
 		cout << "awakened yesterday, I could see that his/her nose was" << words.adjective15 << endl;
 		cout << "He/She also complained of " << words.partOfBod4<< endl;
-		cout << "aches and having a sore" << words.noun15 << endl;
-		cout << "and I took him/her to the family" << words.noun16 << endl;
+		cout << "aches and having a sore" << words.noun16 << endl;
+		cout << "and I took him/her to the family" << words.noun17 << endl;
 		cout << " The doctor quickly diagnosed it to be the " << words.number2 << endl;
 		cout << "-hour flu and suggested he/she take two" << words.pluralNoun12<< endl;
 		cout << "with a glass of " << words.liquid1<< endl;
@@ -137,7 +137,7 @@ public:
 		cout << "hours of the morning completing his/her" << words.adjective19<< endl;
 		cout << "project. Just as he/she was going out the" <<words.adjective20<< endl;
 		cout << "door, I noticed that his/her only pair of" << words.pluralNoun13<< endl;
-		cout << "had a" <<words.noun17 << endl;
+		cout << "had a" <<words.noun18 << endl;
 		cout << "in them. It took me an hour to find my" << words.pluralNoun14<< endl;
 		cout << "so I could see to " << words.verb3 << endl;
 		cout << "the needle, enabling me to sew his/her" << words.pluralNoun15<< endl;
@@ -150,7 +150,7 @@ public:
 	void makeStory(Words words){
 		cout << "This" << words.pronoun1 << endl;
 		cout << "is open to all" << words.pluralNoun16<< endl;
-		cout << "with previous" << words.noun18<< endl;
+		cout << "with previous" << words.noun19<< endl;
 		cout << "music experience and non-band students who wish to participate as members of the colorguard. No previous" << words.verbING4<< endl;
 		cout << "experience is required. The" << words.verbING4 << endl;
 		cout << "band performs at several events that take place outside of the school day including" << words.event1 << endl;

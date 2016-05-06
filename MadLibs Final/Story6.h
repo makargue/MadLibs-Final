@@ -14,9 +14,9 @@ private:
 	string adjective19;
 	string adjective20;
 	string adverb2;
-	string noun15;
 	string noun16;
 	string noun17;
+	string noun18;
 	string number2;
 	string name5;
 	string name6;

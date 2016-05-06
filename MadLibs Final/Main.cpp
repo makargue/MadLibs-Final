@@ -33,7 +33,7 @@ int main(Words1){
 
 	Words words;
 
-	
+
 	cout << "Enter a noun:";
 	cin >> words.noun1;
 	cout << "Enter an adjective:";
@@ -58,7 +58,56 @@ int main(Words1){
 
 	StoryOne one;
 	one.makeStory(words);
+}
+int main(Words2){
+	string adjective4, adjective5, adjective6, adjective7, noun2, noun3, noun4, noun5, number1, partOfBod2, partOfBod3, pluralNoun1, pluralNoun2, pluralNoun3, pluralNoun4, verb1, verbING2;
+	adjective4 = adjective4;
+	adjective5 = adjective5;
+	adjective6 = adjective6;
+	adjective7 = adjective7;
+	noun2 = noun2;
+	noun3 = noun3;
+	noun4 = noun4;
+	noun5 = noun5;
+	number1 = number1;
+	partOfBod2 = partOfBod2;
+	partOfBod3 = partOfBod2;
+	pluralNoun1 = pluralNoun1;
+	pluralNoun2 = pluralNoun2;
+	pluralNoun3 = pluralNoun3;
+	pluralNoun4 = pluralNoun4;
+	verb1 = verb1;
+	verbING2 = verbING2;
 
+	Words words;
+
+
+	cout << "Enter an adjective:";
+	cin >> words.adjective4;
+	cout << "Enter an adjective:";
+	cin >> words.adjective5;
+	cout << "Enter an adjective:";
+	cin >> words.adjective6;
+	cout << "Enter an adjective";
+	cin >> words.adjective7;
+	cout << "Enter a name:";
+	cin >> words.femaleName1;
+	cout << "Enter a name:";
+	cin >> words.maleName1;
+	cout << "Enter a job:";
+	cin >> occupation1;
+	cout << "Enter a job:";
+	cin >> occupation2;
+	cout << "Enter a body part:";
+	cin >> partOfBod1;
+	cout << "Enter a verb ending in ING";
+	cin >> verbING1;
+
+
+	StoryOne one;
+	one.makeStory(words);
+
+}
 	/*STORY ONE
 	cout << " Thank You! Thank you from the bottom of my " << getPartOfBod1() << endl;
 	cout << " I don't know what to say. I'm speechless. I truly didn't expect to win this " getAdjective1() << endl;

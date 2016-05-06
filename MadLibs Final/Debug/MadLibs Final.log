@@ -1,104 +1,34 @@
-﻿Build started 5/3/2016 8:30:25 AM.
+﻿Build started 5/6/2016 7:34:35 AM.
      1>Project "\\dav.edu\Students\HS19$\mnargue02\My Documents\Visual Studio 2013\Projects\MadLibs Final\MadLibs Final\MadLibs Final.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Main.cpp Story5.cpp Story6.cpp Story7.cpp
+         Story6.cpp
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story6.cpp(37): error C2065: 'noun15' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story6.cpp(121): error C2065: 'noun15' : undeclared identifier
          Main.cpp
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(37): error C2039: 'verb1' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(38): error C2039: 'noun2' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(39): error C2039: 'noun3' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(40): error C2039: 'verbING2' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(41): error C2039: 'adjective4' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(42): error C2039: 'partOfBod2' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(43): error C2039: 'pluralNoun1' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(44): error C2039: 'adjective5' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(45): error C2039: 'partOfBod3' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(46): error C2039: 'pluralNoun2' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(47): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(47): error C2227: left of '->getAdjective6' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(47): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(48): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(48): error C2227: left of '->getPluralNoun3' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(48): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(49): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(49): error C2227: left of '->getNoun4' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(49): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(50): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(50): error C2227: left of '->getNumber1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(50): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(51): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(51): error C2227: left of '->getNoun5' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(51): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(52): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(52): error C2227: left of '->getPluralNoun4' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(52): error C2227: left of '->Words2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story6.cpp(37): error C2065: 'noun15' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story6.cpp(121): error C2065: 'noun15' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story7.cpp(17): error C2065: 'noun18' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story7.cpp(57): error C2065: 'noun18' : undeclared identifier
      1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(194): fatal error C1075: end of file found before the left brace '{' at '\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22)' was matched
          Game.cpp
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(37): error C2039: 'verb1' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(38): error C2039: 'noun2' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(39): error C2039: 'noun3' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(40): error C2039: 'verbING2' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(41): error C2039: 'adjective4' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(42): error C2039: 'partOfBod2' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(43): error C2039: 'pluralNoun1' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(44): error C2039: 'adjective5' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(45): error C2039: 'partOfBod3' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(46): error C2039: 'pluralNoun2' : is not a member of 'Words'
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\words.h(7) : see declaration of 'Words'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(47): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(47): error C2227: left of '->getAdjective6' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(47): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(48): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(48): error C2227: left of '->getPluralNoun3' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(48): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(49): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(49): error C2227: left of '->getNoun4' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(49): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(50): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(50): error C2227: left of '->getNumber1' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(50): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(51): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(51): error C2227: left of '->getNoun5' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(51): error C2227: left of '->Words2' must point to class/struct/union/generic type
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(52): error C2065: 'it' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(52): error C2227: left of '->getPluralNoun4' must point to class/struct/union/generic type
-                 type is 'unknown-type'
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story.h(52): error C2227: left of '->Words2' must point to class/struct/union/generic type
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story6.cpp(37): error C2065: 'noun15' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story6.cpp(121): error C2065: 'noun15' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story7.cpp(17): error C2065: 'noun18' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story7.cpp(57): error C2065: 'noun18' : undeclared identifier
      1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\game.cpp(9): error C2601: 'main' : local function definitions are illegal
                  \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22): this line contains a '{' which has not yet been matched
      1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\game.cpp(13): fatal error C1075: end of file found before the left brace '{' at '\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22)' was matched
          Generating Code...
+         Compiling...
+         Story7.cpp
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story7.cpp(17): error C2065: 'noun18' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story7.cpp(57): error C2065: 'noun18' : undeclared identifier
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Story5.cpp
      1>Done Building Project "\\dav.edu\Students\HS19$\mnargue02\My Documents\Visual Studio 2013\Projects\MadLibs Final\MadLibs Final\MadLibs Final.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:02.82
+Time Elapsed 00:00:02.47

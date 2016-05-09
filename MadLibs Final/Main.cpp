@@ -172,26 +172,28 @@ int main(Words3){
 
 }
 
-int main(Words3){
+int main(Words4){
 	string adjective9, adjective10, adjective11, pluralNoun10, pluralnoun11, noun8, noun9, noun10, name1, name2, name3, state1, state2, plant1;
-	adjective8 = adjective8;
-	celebrity1 = celebrity1;
-	lastName1 = lastName1;
-	lastName2 = lastName2;
-	noun6 = noun6;
-	noun7 = noun7;
-	pluralAnimal1 = pluralAnimal1;
-	pluralNoun5 = pluralNoun5;
-	pluralNoun6 = pluralNoun6;
-	pluralNoun7 = pluralNoun7;
-	pluralNoun8 = pluralNoun8;
-	pluralNoun9 = pluralNoun9;
+	adjective9 = adjective9;
+	adjective10 = adjective10;
+	adjective11 = adjective11;
+	pluralNoun10 = pluralNoun10;
+	pluralnoun11 = pluralnoun11;
+	noun8 = noun8;
+	noun9 = noun9;
+	noun10 = noun10;
+	name1 = name1;
+	name2 = name2;
+	name3 = name3;
+	state1 = state1;
+	state2 = state2;
+	plant1 = plant1;
 
 	Words words;
 
 
 	cout << "Enter an adjective:";
-	cin >> words.adjective8;
+	cin >> words.adjective9;
 	cout << "Enter a celebrity:";
 	cin >> words.celebrity1;
 	cout << "Enter a last name:";
@@ -216,8 +218,8 @@ int main(Words3){
 	cin >> words.pluralNoun9;
 
 
-	StoryThree three;
-	three.makeStory(words);
+	StoryFour four;
+	four.makeStory(words);
 	/*STORY ONE
 	cout << " Thank You! Thank you from the bottom of my " << getPartOfBod1() << endl;
 	cout << " I don't know what to say. I'm speechless. I truly didn't expect to win this " getAdjective1() << endl;

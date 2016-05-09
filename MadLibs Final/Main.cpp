@@ -140,32 +140,37 @@ int main(Words3){
 	Words words;
 
 
+	cout << "Enter an adjective:";
+	cin >> words.adjective8;
+	cout << "Enter a celebrity:";
+	cin >> words.celebrity1;
+	cout << "Enter a last name:";
+	cin >> words.lastName1;
+	cout << "Enter a last name";
+	cin >> words.lastName2;
 	cout << "Enter a noun:";
-	cin >> words.noun1;
-	cout << "Enter an adjective:";
-	cin >> words.adjective1;
-	cout << "Enter an adjective:";
-	cin >> words.adjective2;
-	cout << "Enter an adjective";
-	cin >> words.adjective3;
-	cout << "Enter a name:";
-	cin >> words.femaleName1;
-	cout << "Enter a name:";
-	cin >> words.maleName1;
-	cout << "Enter a job:";
-	cin >> words.occupation1;
-	cout << "Enter a job:";
-	cin >> words.occupation2;
-	cout << "Enter a body part:";
-	cin >> words.partOfBod1;
-	cout << "Enter a verb ending in ING";
-	cin >> words.verbING1;
+	cin >> words.noun6;
+	cout << "Enter a noun:";
+	cin >> words.noun7;
+	cout << "Enter a plural animal";
+	cin >> words.pluralAnimal1;
+	cout << "Enter a plural noun:";
+	cin >> words.pluralNoun5;
+	cout << "Enter a plural noun:";
+	cin >> words.pluralNoun6;
+	cout << "Enter a plural noun:";
+	cin >> words.pluralNoun7;
+	cout << "Enter a plural noun:";
+	cin >> words.pluralNoun8;
+	cout << "Enter a plural noun:";
+	cin >> words.pluralNoun9;
 
 
-	StoryOne one;
-	one.makeStory(words);
+	StoryTwo two;
+	two.makeStory(words);
 
 }
+
 	/*STORY ONE
 	cout << " Thank You! Thank you from the bottom of my " << getPartOfBod1() << endl;
 	cout << " I don't know what to say. I'm speechless. I truly didn't expect to win this " getAdjective1() << endl;

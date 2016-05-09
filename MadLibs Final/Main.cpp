@@ -124,15 +124,18 @@ int main(Words2){
 }
 int main(Words3){
 	string adjective8, celebrity1, lastName1, lastName2, noun6, noun7, pluralAnimal1, pluralNoun5, pluralNoun6, pluralNoun7, pluralNoun8, pluralNoun9;
-	noun1 = noun1;
-	adjective1 = adjective1;
-	adjective2 = adjective2;
-	adjective3 = adjective3;
-	femaleName1 = femaleName1;
-	maleName1 = maleName1;
-	occupation1 = occupation1;
-	occupation2 = occupation2;
-	partOfBod1 = partOfBod1;
+	adjective8 = adjective8;
+	celebrity1 = celebrity1;
+	lastName1 = lastName1;
+	lastName2 = lastName2;
+	noun6 = noun6;
+	noun7 = noun7;
+	pluralAnimal1 = pluralAnimal1;
+	pluralNoun5 = pluralNoun5;
+	pluralNoun6 = pluralNoun6;
+	pluralNoun7 = pluralNoun7;
+	pluralNoun8 = pluralNoun8;
+	pluralNoun9 = pluralNoun9;
 
 	Words words;
 

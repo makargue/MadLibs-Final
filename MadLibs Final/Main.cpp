@@ -166,8 +166,8 @@ int main(Words3){
 	cin >> words.pluralNoun9;
 
 
-	StoryTwo two;
-	two.makeStory(words);
+	StoryThree three;
+	three.makeStory(words);
 
 }
 

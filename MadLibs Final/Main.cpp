@@ -280,21 +280,29 @@ int main(Words5){
 }
 
 int main(Words6){
-	string adjective9, adjective10, adjective11, pluralNoun10, pluralnoun11, noun8, noun9, noun10, name1, name2, name3, state1, state2, plant1;
-	adjective9 = adjective9;
-	adjective10 = adjective10;
-	adjective11 = adjective11;
-	pluralNoun10 = pluralNoun10;
-	pluralnoun11 = pluralnoun11;
-	noun8 = noun8;
-	noun9 = noun9;
-	noun10 = noun10;
-	name1 = name1;
-	name2 = name2;
-	name3 = name3;
-	state1 = state1;
-	state2 = state2;
-	plant1 = plant1;
+	string adjective14, adjective15, adjective16, adjective17, adjective18, adjective19, adjective20, adverb2, noun16, noun17, noun18, number2, name5, name6, name7, pluralNoun12, pluralNoun13, pluralNoun14, pluralNoun15, verb3, partOfBod4, liquid1;
+	adjective14 = adjective14;
+	adjective15 = adjective15;
+	adjective16 = adjective16;
+	adjective17 = adjective17;
+	adjective18 = adjective18;
+	adjective19 = adjective19;
+	adjective20 = adjective20;
+	adverb2 = adverb2;
+	noun16 = noun16;
+	noun17 = noun17;
+	noun18 = noun18;
+	number2 = number2;
+	name5 = name5;
+	name6 = name6;
+	name7 = name7;
+	pluralNoun12 = pluralNoun12;
+	pluralNoun13 = pluralNoun13;
+	pluralNoun14 = pluralNoun14;
+	pluralNoun15 = pluralNoun15;
+	verb3 = verb3;
+	partOfBod4 = partOfBod4;
+	liquid1 = liquid1;
 
 	Words words;
 

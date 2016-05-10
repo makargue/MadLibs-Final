@@ -361,28 +361,15 @@ int main(Words6){
 }
 int main(Words7){
 	string pronoun1, pluralNoun16, pluralNoun17, noun19, verbING4, event1, event2, location1, number3;
-	adjective14 = adjective14;
-	adjective15 = adjective15;
-	adjective16 = adjective16;
-	adjective17 = adjective17;
-	adjective18 = adjective18;
-	adjective19 = adjective19;
-	adjective20 = adjective20;
-	adverb2 = adverb2;
-	noun16 = noun16;
-	noun17 = noun17;
-	noun18 = noun18;
-	number2 = number2;
-	name5 = name5;
-	name6 = name6;
-	name7 = name7;
-	pluralNoun12 = pluralNoun12;
-	pluralNoun13 = pluralNoun13;
-	pluralNoun14 = pluralNoun14;
-	pluralNoun15 = pluralNoun15;
-	verb3 = verb3;
-	partOfBod4 = partOfBod4;
-	liquid1 = liquid1;
+	pronoun1 = pronoun1;
+	pluralNoun16 = pluralNoun16;
+	pluralNoun17 = pluralNoun17;
+	noun19 = noun19;
+	verbING4 = verbING4;
+	event1 = event1;
+	event2 = event2;
+	location1 = location1;
+	number3 = number3;
 
 	Words words;
 

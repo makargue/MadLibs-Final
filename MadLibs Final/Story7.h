@@ -21,7 +21,7 @@ public:
 	void setPronoun1(string value);
 	void setPluralNoun16(string value);
 	void setPluralNoun17(string value);
-	void setNoun18(string value);
+	void setNoun19(string value);
 	void setVerbING4(string value);
 	void setEvent1(string value);
 	void setEvent2(string value);
@@ -31,7 +31,7 @@ public:
 	string getPronoun1();
 	string getPluralNoun16();
 	string getPluralNoun17();
-	string getNoun18();
+	string getNoun19();
 	string getVerbING4();
 	string getEvent1();
 	string getEvent2();

@@ -13,8 +13,8 @@ void Words7::setPluralNoun17(string value) {
 	pluralNoun17 = value;
 }
 
-void Words7::setNoun18(string value) {
-	noun18 = value;
+void Words7::setNoun19(string value) {
+	noun19 = value;
 }
 
 void Words7::setVerbING4(string value) {
@@ -53,8 +53,8 @@ string Words7::getPluralNoun17() {
 	return pluralNoun17;
 }
 
-string Words7::getNoun18() {
-	return noun18;
+string Words7::getNoun19() {
+	return noun19;
 }
 
 string Words7::getVerbING4() {

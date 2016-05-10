@@ -1,29 +1,43 @@
-﻿Build started 5/6/2016 7:34:35 AM.
+﻿Build started 5/10/2016 8:28:16 AM.
      1>Project "\\dav.edu\Students\HS19$\mnargue02\My Documents\Visual Studio 2013\Projects\MadLibs Final\MadLibs Final\MadLibs Final.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Main.cpp Story5.cpp Story6.cpp Story7.cpp
+         Story7.cpp
          Story6.cpp
      1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story6.cpp(37): error C2065: 'noun15' : undeclared identifier
      1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story6.cpp(121): error C2065: 'noun15' : undeclared identifier
          Main.cpp
      1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story6.cpp(37): error C2065: 'noun15' : undeclared identifier
      1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story6.cpp(121): error C2065: 'noun15' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story7.cpp(17): error C2065: 'noun18' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story7.cpp(57): error C2065: 'noun18' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(194): fatal error C1075: end of file found before the left brace '{' at '\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22)' was matched
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(62): error C2731: 'main' : function cannot be overloaded
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(62) : see declaration of 'main'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(126): error C2731: 'main' : function cannot be overloaded
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(126) : see declaration of 'main'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(175): error C2731: 'main' : function cannot be overloaded
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(175) : see declaration of 'main'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(230): error C2731: 'main' : function cannot be overloaded
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(230) : see declaration of 'main'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(283): error C2731: 'main' : function cannot be overloaded
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(283) : see declaration of 'main'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(362): error C2731: 'main' : function cannot be overloaded
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(362) : see declaration of 'main'
          Game.cpp
      1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story6.cpp(37): error C2065: 'noun15' : undeclared identifier
      1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story6.cpp(121): error C2065: 'noun15' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story7.cpp(17): error C2065: 'noun18' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story7.cpp(57): error C2065: 'noun18' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\game.cpp(9): error C2601: 'main' : local function definitions are illegal
-                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22): this line contains a '{' which has not yet been matched
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\game.cpp(13): fatal error C1075: end of file found before the left brace '{' at '\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(22)' was matched
-         Generating Code...
-         Compiling...
-         Story7.cpp
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story7.cpp(17): error C2065: 'noun18' : undeclared identifier
-     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\story7.cpp(57): error C2065: 'noun18' : undeclared identifier
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(62): error C2731: 'main' : function cannot be overloaded
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(62) : see declaration of 'main'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(126): error C2731: 'main' : function cannot be overloaded
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(126) : see declaration of 'main'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(175): error C2731: 'main' : function cannot be overloaded
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(175) : see declaration of 'main'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(230): error C2731: 'main' : function cannot be overloaded
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(230) : see declaration of 'main'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(283): error C2731: 'main' : function cannot be overloaded
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(283) : see declaration of 'main'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(362): error C2731: 'main' : function cannot be overloaded
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\main.cpp(362) : see declaration of 'main'
+     1>\\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\game.cpp(9): error C2731: 'main' : function cannot be overloaded
+                 \\dav.edu\students\hs19$\mnargue02\my documents\visual studio 2013\projects\madlibs final\madlibs final\game.cpp(9) : see declaration of 'main'
          Generating Code...
          Skipping... (no relevant changes detected)
          Story5.cpp
@@ -31,4 +45,4 @@
 
 Build FAILED.
 
-Time Elapsed 00:00:02.47
+Time Elapsed 00:00:02.98

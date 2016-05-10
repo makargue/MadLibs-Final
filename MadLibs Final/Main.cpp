@@ -221,6 +221,7 @@ int main(Words4){
 	cout << "Enter a state:";
 	cin >> words.state2;
 	cout << "Enter a plant:";
+	cin >> words.plant1;
 
 
 	StoryFour four;
@@ -308,34 +309,51 @@ int main(Words6){
 
 
 	cout << "Enter an adjective:";
-	cin >> words.adjective9;
+	cin >> words.adjective14;
 	cout << "Enter an adjective:";
-	cin >> words.adjective10;
+	cin >> words.adjective15;
 	cout << "Enter an adjective:";
-	cin >> words.adjective11;
-	cout << "Enter a plural noun:";
-	cin >> words.pluralNoun9;
-	cout << "Enter a plural noun:";
-	cin >> words.pluralNoun10;
-	cout << "Enter a plural noun";
-	cin >> words.pluralNoun11;
+	cin >> words.adjective16;
+	cout << "Enter an adjective:";
+	cin >> words.adjective17;
+	cout << "Enter an adjective:";
+	cin >> words.adjective18;
+	cout << "Enter an adjective:";
+	cin >> words.adjective19;
+	cout << "Enter an adjective:";
+	cin >> words.adjective20;
+	cout << "Enter an adverb:";
+	cin >> words.adverb2;
 	cout << "Enter a noun:";
-	cin >> words.noun8;
+	cin >> words.noun16;
+	cout << "Enter a noun";
+	cin >> words.noun17;
+	cout << "Enter a noun:";
+	cin >> words.noun18;
 	cout << "Enter a noun:";
 	cin >> words.noun9;
-	cout << "Enter a noun";
-	cin >> words.noun10;
+	cout << "Enter a number";
+	cin >> words.number2;
 	cout << "Enter a name:";
-	cin >> words.name1;
+	cin >> words.name5;
 	cout << "Enter a name:";
-	cin >> words.name2;
+	cin >> words.name6;
 	cout << "Enter a name:";
-	cin >> words.name3;
-	cout << "Enter a state:";
-	cin >> words.state1;
-	cout << "Enter a state:";
-	cin >> words.state2;
-	cout << "Enter a plant:";
+	cin >> words.name7;
+	cout << "Enter a plural noun:";
+	cin >> words.pluralNoun12;
+	cout << "Enter a plural noun:";
+	cin >> words.pluralNoun13;
+	cout << "Enter a plural noun:";
+	cin >> words.pluralNoun14;
+	cout << "Enter a plural noun:";
+	cin >> words.pluralNoun15;
+	cout << "Enter a verb:";
+	cin >> words.verb3;
+	cout << "Enter a part of body:";
+	cin >> words.partOfBod4;
+	cout << "Enter a liquid:";
+	cin >> words.liquid1;
 
 
 	StorySix six;

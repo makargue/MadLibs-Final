@@ -374,36 +374,24 @@ int main(Words7){
 	Words words;
 
 
-	cout << "Enter an adjective:";
-	cin >> words.adjective9;
-	cout << "Enter an adjective:";
-	cin >> words.adjective10;
-	cout << "Enter an adjective:";
-	cin >> words.adjective11;
+	cout << "Enter a pronoun:";
+	cin >> words.pronoun1;
 	cout << "Enter a plural noun:";
-	cin >> words.pluralNoun9;
+	cin >> words.pluralNoun16;
 	cout << "Enter a plural noun:";
-	cin >> words.pluralNoun10;
-	cout << "Enter a plural noun";
-	cin >> words.pluralNoun11;
+	cin >> words.pluralNoun17;
 	cout << "Enter a noun:";
-	cin >> words.noun8;
-	cout << "Enter a noun:";
-	cin >> words.noun9;
-	cout << "Enter a noun";
-	cin >> words.noun10;
-	cout << "Enter a name:";
-	cin >> words.name1;
-	cout << "Enter a name:";
-	cin >> words.name2;
-	cout << "Enter a name:";
-	cin >> words.name3;
-	cout << "Enter a state:";
-	cin >> words.state1;
-	cout << "Enter a state:";
-	cin >> words.state2;
-	cout << "Enter a plant:";
-
+	cin >> words.noun19;
+	cout << "Enter a verb ending in ing:";
+	cin >> words.verbING4;
+	cout << "Enter an event";
+	cin >> words.event1;
+	cout << "Enter an event:";
+	cin >> words.event2;
+	cout << "Enter a location:";
+	cin >> words.location1;
+	cout << "Enter a number";
+	cin >> words.number3;
 
 	StorySeven seven;
 	seven.makeStory(words);

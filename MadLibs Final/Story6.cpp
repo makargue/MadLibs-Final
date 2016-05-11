@@ -33,16 +33,16 @@ void Words6::setAdverb2(string value) {
 	adverb2 = value;
 }
 
-void Words6::setNoun15(string value) {
-	noun15 = value;
-}
-
 void Words6::setNoun16(string value) {
 	noun16 = value;
 }
 
 void Words6::setNoun17(string value) {
 	noun17 = value;
+}
+
+void Words6::setNoun18(string value) {
+	noun18 = value;
 }
 
 void Words6::setNumber2(string value) {
@@ -117,16 +117,16 @@ string Words6::getAdjective20() {
 	return adjective20;
 }
 
-string Words6::getNoun15() {
-	return noun15;
-}
-
 string Words6::getNoun16() {
 	return noun16;
 }
 
 string Words6::getNoun17() {
 	return noun17;
+}
+
+string Words6::getNoun18() {
+	return noun18;
 }
 
 string Words6::getAdverb2() {

@@ -19,7 +19,7 @@
 
 using namespace std;
 
-int main(Words1){
+int main(){
 	string noun1, adjective1, adjective2, adjective3, femaleName1, maleName1, occupation1, occupation2, partOfBod1, verbING1;
 	noun1 = noun1;
 	adjective1 = adjective1;
@@ -58,72 +58,72 @@ int main(Words1){
 
 	StoryOne one;
 	one.makeStory(words);
-}
-int main(Words2){
-	string adjective4, adjective5, adjective6, adjective7, noun2, noun3, noun4, noun5, number1, partOfBod2, partOfBod3, pluralNoun1, pluralNoun2, pluralNoun3, pluralNoun4, verb1, verbING2;
-	adjective4 = adjective4;
-	adjective5 = adjective5;
-	adjective6 = adjective6;
-	adjective7 = adjective7;
-	noun2 = noun2;
-	noun3 = noun3;
-	noun4 = noun4;
-	noun5 = noun5;
-	number1 = number1;
-	partOfBod2 = partOfBod2;
-	partOfBod3 = partOfBod2;
-	pluralNoun1 = pluralNoun1;
-	pluralNoun2 = pluralNoun2;
-	pluralNoun3 = pluralNoun3;
-	pluralNoun4 = pluralNoun4;
-	verb1 = verb1;
-	verbING2 = verbING2;
-
-	Words words;
-
-
-	cout << "Enter an adjective:";
-	cin >> words.adjective4;
-	cout << "Enter an adjective:";
-	cin >> words.adjective5;
-	cout << "Enter an adjective:";
-	cin >> words.adjective6;
-	cout << "Enter an adjective";
-	cin >> words.adjective7;
-	cout << "Enter a noun:";
-	cin >> words.noun2;
-	cout << "Enter a noun";
-	cin >> words.noun3;
-	cout << "Enter a noun:";
-	cin >> words.noun4;
-	cout << "Enter a noun:";
-	cin >> words.noun5;
-	cout << "Enter a number:";
-	cin >> words.number1;
-	cout << "Enter a body part";
-	cin >> words.partOfBod2;
-	cout << "Enter a body part";
-	cin >> words.partOfBod3;
-	cout << "Enter a plural noun";
-	cin >> words.pluralNoun1;
-	cout << "Enter a plural noun";
-	cin >> words.pluralNoun2;
-	cout << "Enter a plural noun";
-	cin >> words.pluralNoun3;
-	cout << "Enter a plural noun";
-	cin >> words.pluralNoun4;
-	cout << "Enter a verb";
-	cin >> words.verb1;
-	cout << "Enter a verb ending in ing";
-	cin >> words.verbING2;
-
-
-	StoryTwo two;
-	two.makeStory(words);
 
 }
 
-int main(Words3){
+	int main(){
+		string adjective4, adjective5, adjective6, adjective7, noun2, noun3, noun4, noun5, number1, partOfBod2, partOfBod3, pluralNoun1, pluralNoun2, pluralNoun3, pluralNoun4, verb1, verbING2;
+		adjective4 = adjective4;
+		adjective5 = adjective5;
+		adjective6 = adjective6;
+		adjective7 = adjective7;
+		noun2 = noun2;
+		noun3 = noun3;
+		noun4 = noun4;
+		noun5 = noun5;
+		number1 = number1;
+		partOfBod2 = partOfBod2;
+		partOfBod3 = partOfBod2;
+		pluralNoun1 = pluralNoun1;
+		pluralNoun2 = pluralNoun2;
+		pluralNoun3 = pluralNoun3;
+		pluralNoun4 = pluralNoun4;
+		verb1 = verb1;
+		verbING2 = verbING2;
+
+		Words words;
+
+		cout << "Enter an adjective:";
+		cin >> words.adjective4;
+		cout << "Enter an adjective:";
+		cin >> words.adjective5;
+		cout << "Enter an adjective:";
+		cin >> words.adjective6;
+		cout << "Enter an adjective";
+		cin >> words.adjective7;
+		cout << "Enter a noun:";
+		cin >> words.noun2;
+		cout << "Enter a noun";
+		cin >> words.noun3;
+		cout << "Enter a noun:";
+		cin >> words.noun4;
+		cout << "Enter a noun:";
+		cin >> words.noun5;
+		cout << "Enter a number:";
+		cin >> words.number1;
+		cout << "Enter a body part";
+		cin >> words.partOfBod2;
+		cout << "Enter a body part";
+		cin >> words.partOfBod3;
+		cout << "Enter a plural noun";
+		cin >> words.pluralNoun1;
+		cout << "Enter a plural noun";
+		cin >> words.pluralNoun2;
+		cout << "Enter a plural noun";
+		cin >> words.pluralNoun3;
+		cout << "Enter a plural noun";
+		cin >> words.pluralNoun4;
+		cout << "Enter a verb";
+		cin >> words.verb1;
+		cout << "Enter a verb ending in ing";
+		cin >> words.verbING2;
+
+
+		StoryTwo two;
+		two.makeStory(words);
+
+	}
+	int main(){
 	string adjective8, celebrity1, lastName1, lastName2, noun6, noun7, pluralAnimal1, pluralNoun5, pluralNoun6, pluralNoun7, pluralNoun8, pluralNoun9;
 	adjective8 = adjective8;
 	celebrity1 = celebrity1;
@@ -138,8 +138,8 @@ int main(Words3){
 	pluralNoun8 = pluralNoun8;
 	pluralNoun9 = pluralNoun9;
 
-	Words words;
 
+	Words words;
 
 	cout << "Enter an adjective:";
 	cin >> words.adjective8;
@@ -169,10 +169,9 @@ int main(Words3){
 
 	StoryThree three;
 	three.makeStory(words);
-
 }
 
-int main(Words4){
+	int main(){
 	string adjective9, adjective10, adjective11, pluralNoun10, pluralnoun11, noun8, noun9, noun10, name1, name2, name3, state1, state2, plant1;
 	adjective9 = adjective9;
 	adjective10 = adjective10;
@@ -227,7 +226,7 @@ int main(Words4){
 	StoryFour four;
 	four.makeStory(words);
 }
-int main(Words5){
+	int main(){
 	string noun11, noun12, noun13, noun14, noun15, adjective12, adjective13, verb2, verbING3, name4, animal1, adverb1, feeling1, conjunction1;
 	noun11 = noun11;
 	noun12 = noun12;
@@ -244,8 +243,8 @@ int main(Words5){
 	feeling1 = feeling1;
 	conjunction1 = conjunction1;
 
-	Words words;
 
+	Words words;
 
 	cout << "Enter a noun:";
 	cin >> words.noun11;
@@ -279,8 +278,7 @@ int main(Words5){
 	StoryFive five;
 	five.makeStory(words);
 }
-
-int main(Words6){
+	int main(){
 	string adjective14, adjective15, adjective16, adjective17, adjective18, adjective19, adjective20, adverb2, noun16, noun17, noun18, number2, name5, name6, name7, pluralNoun12, pluralNoun13, pluralNoun14, pluralNoun15, verb3, partOfBod4, liquid1;
 	adjective14 = adjective14;
 	adjective15 = adjective15;
@@ -305,8 +303,8 @@ int main(Words6){
 	partOfBod4 = partOfBod4;
 	liquid1 = liquid1;
 
-	Words words;
 
+	Words words;
 
 	cout << "Enter an adjective:";
 	cin >> words.adjective14;
@@ -359,7 +357,7 @@ int main(Words6){
 	StorySix six;
 	six.makeStory(words);
 }
-int main(Words7){
+	int main(){
 	string pronoun1, pluralNoun16, pluralNoun17, noun19, verbING4, event1, event2, location1, number3;
 	pronoun1 = pronoun1;
 	pluralNoun16 = pluralNoun16;

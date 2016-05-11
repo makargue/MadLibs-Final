@@ -39,9 +39,9 @@ public:
 	void setAdjective19(string value);
 	void setAdjective20(string value);
 	void setAdverb2(string value);
-	void setNoun15(string value);
-	void setNoun16(string  value);
-	void setNoun17(string value);
+	void setNoun16(string value);
+	void setNoun17(string  value);
+	void setNoun18(string value);
 	void setNumber2(string value);
 	void setName5(string value);
 	void setName6(string  value);
@@ -62,9 +62,9 @@ public:
 	string getAdjective19();
 	string getAdjective20();
 	string getAdverb2();
-	string getNoun15();
 	string getNoun16();
 	string getNoun17();
+	string getNoun18();
 	string getNumber2();
 	string getName5();
 	string getName6();

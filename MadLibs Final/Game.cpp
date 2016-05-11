@@ -5,8 +5,3 @@
 #include "Main.cpp"
 
 using namespace std;
-
-int main(){
-
-
-}

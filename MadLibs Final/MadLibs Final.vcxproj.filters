@@ -19,9 +19,6 @@
     <Filter Include="Source Files\Stories.cpp">
       <UniqueIdentifier>{6011e22f-d299-42e2-a36c-ca447391b2a3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\testing">
-      <UniqueIdentifier>{60a80a91-ba0c-4314-b7d7-602e9a21175f}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -50,27 +47,6 @@
     </ClCompile>
     <ClCompile Include="Story7.cpp">
       <Filter>Source Files\Stories.cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="Words1.cpp">
-      <Filter>Source Files\testing</Filter>
-    </ClCompile>
-    <ClCompile Include="Words2.cpp">
-      <Filter>Source Files\testing</Filter>
-    </ClCompile>
-    <ClCompile Include="Words3.cpp">
-      <Filter>Source Files\testing</Filter>
-    </ClCompile>
-    <ClCompile Include="Words4.cpp">
-      <Filter>Source Files\testing</Filter>
-    </ClCompile>
-    <ClCompile Include="Words5.cpp">
-      <Filter>Source Files\testing</Filter>
-    </ClCompile>
-    <ClCompile Include="Words6.cpp">
-      <Filter>Source Files\testing</Filter>
-    </ClCompile>
-    <ClCompile Include="Words7.cpp">
-      <Filter>Source Files\testing</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

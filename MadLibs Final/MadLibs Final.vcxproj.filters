@@ -60,6 +60,18 @@
     <ClCompile Include="Words3.cpp">
       <Filter>Source Files\testing</Filter>
     </ClCompile>
+    <ClCompile Include="Words4.cpp">
+      <Filter>Source Files\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Words5.cpp">
+      <Filter>Source Files\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Words6.cpp">
+      <Filter>Source Files\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Words7.cpp">
+      <Filter>Source Files\testing</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Story1.h">

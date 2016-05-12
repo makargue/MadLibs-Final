@@ -73,6 +73,7 @@
     <ClCompile Include="Story5.cpp" />
     <ClCompile Include="Story6.cpp" />
     <ClCompile Include="Story7.cpp" />
+    <ClCompile Include="Words1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Story.h" />

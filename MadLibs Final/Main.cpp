@@ -61,6 +61,7 @@ int main(){
 
 }
 
+
 	int main(){
 		string adjective4, adjective5, adjective6, adjective7, noun2, noun3, noun4, noun5, number1, partOfBod2, partOfBod3, pluralNoun1, pluralNoun2, pluralNoun3, pluralNoun4, verb1, verbING2;
 		adjective4 = adjective4;
@@ -123,6 +124,7 @@ int main(){
 		two.makeStory(words);
 
 	}
+
 	int main(){
 	string adjective8, celebrity1, lastName1, lastName2, noun6, noun7, pluralAnimal1, pluralNoun5, pluralNoun6, pluralNoun7, pluralNoun8, pluralNoun9;
 	adjective8 = adjective8;
@@ -140,6 +142,7 @@ int main(){
 
 
 	Words words;
+
 
 	cout << "Enter an adjective:";
 	cin >> words.adjective8;
@@ -188,6 +191,7 @@ int main(){
 	state2 = state2;
 	plant1 = plant1;
 
+
 	Words words;
 
 
@@ -226,6 +230,7 @@ int main(){
 	StoryFour four;
 	four.makeStory(words);
 }
+
 	int main(){
 	string noun11, noun12, noun13, noun14, noun15, adjective12, adjective13, verb2, verbING3, name4, animal1, adverb1, feeling1, conjunction1;
 	noun11 = noun11;
@@ -245,6 +250,7 @@ int main(){
 
 
 	Words words;
+
 
 	cout << "Enter a noun:";
 	cin >> words.noun11;

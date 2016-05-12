@@ -54,6 +54,9 @@
     <ClCompile Include="Words1.cpp">
       <Filter>Source Files\testing</Filter>
     </ClCompile>
+    <ClCompile Include="Words2.cpp">
+      <Filter>Source Files\testing</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Story1.h">

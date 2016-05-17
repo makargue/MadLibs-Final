@@ -286,24 +286,31 @@ int main() {
 	cin >> selection;
 	switch (selection) {
 	case 1:
+		cout << "Emmy speech";
 		storyOne();
 		break;
 	case 2:
+		cout << "Video Games";
 		storyTwo();
 		break;
 	case 3:
+		cout << "Rock Music";
 		storyThree();
 		break;
 	case 4:
+		cout << "Summer Camp";
 		storyFour();
 		break;
 	case 5:
+		cout << "Sonic";
 		storyFive();
 		break;
 	case 6:
+		cout << "Tarty Note";
 		storySix();
 		break;
 	case 7:
+		cout << "Marching band";
 		storySeven();
 		break;
 	}

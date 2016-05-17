@@ -42,6 +42,7 @@ void storyOne(){
 	cin >> words.partOfBod1;
 	cout << "Enter a verb ending in ING:  ";
 	cin >> words.verbING1;
+	cout << "Your story:\n";
 
 	StoryOne one;
 	one.makeStory(words);
@@ -84,6 +85,7 @@ void storyTwo() {
 	cin >> words.verb1;
 	cout << "Enter a verb ending in ing:  ";
 	cin >> words.verbING2;
+	cout << "Your story:\n";
 
 	StoryTwo two;
 	two.makeStory(words);
@@ -117,7 +119,7 @@ void storyThree(){
 	cin >> words.pluralNoun8;
 	cout << "Enter a plural noun:  ";
 	cin >> words.pluralNoun9;
-
+	cout << "Your story:\n";
 
 	StoryThree three;
 	three.makeStory(words);
@@ -155,7 +157,7 @@ Words words;
 	cin >> words.state2;
 	cout << "Enter a plant:  ";
 	cin >> words.plant1;
-
+	cout << "Your story:\n";
 
 	StoryFour four;
 	four.makeStory(words);
@@ -192,6 +194,7 @@ void storyFive(){
 	cin >> words.feeling1;
 	cout << "Enter a conjunction:  ";
 	cin >> words.conjunction1;
+	cout << "Your story:\n";
 
 	StoryFive five;
 	five.makeStory(words);
@@ -246,7 +249,7 @@ void storySix(){
 	cin >> words.partOfBod4;
 	cout << "Enter a liquid:  ";
 	cin >> words.liquid1;
-
+	cout << "Your story:\n";
 
 	StorySix six;
 	six.makeStory(words);
@@ -274,6 +277,7 @@ void storySeven(){
 	cin >> words.location1;
 	cout << "Enter a number:  ";
 	cin >> words.number3;
+	cout << "Your story:\n";
 
 	StorySeven seven;
 	seven.makeStory(words);
@@ -281,36 +285,36 @@ void storySeven(){
 
 
 int main() {
-	cout << "Select story 1, 2, 3, 4, 5, 6, or 7";
+	cout << "Select story 1, 2, 3, 4, 5, 6, or 7   ";
 	int selection;
 	cin >> selection;
 	switch (selection) {
 	case 1:
-		cout << "Emmy speech";
+		cout << "Emmy speech\n";
 		storyOne();
 		break;
 	case 2:
-		cout << "Video Games";
+		cout << "Video Games\n";
 		storyTwo();
 		break;
 	case 3:
-		cout << "Rock Music";
+		cout << "Rock Music\n";
 		storyThree();
 		break;
 	case 4:
-		cout << "Summer Camp";
+		cout << "Summer Camp\n";
 		storyFour();
 		break;
 	case 5:
-		cout << "Sonic";
+		cout << "Sonic\n";
 		storyFive();
 		break;
 	case 6:
-		cout << "Tarty Note";
+		cout << "Tarty Note\n";
 		storySix();
 		break;
 	case 7:
-		cout << "Marching band";
+		cout << "Marching band\n";
 		storySeven();
 		break;
 	}

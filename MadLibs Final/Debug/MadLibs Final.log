@@ -1,8 +1,12 @@
-﻿Build started 5/16/2016 8:11:27 AM.
+﻿Build started 5/17/2016 8:30:13 AM.
      1>Project "\\dav.edu\Students\HS19$\mnargue02\My Documents\Visual Studio 2013\Projects\MadLibs Final\MadLibs Final\MadLibs Final.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Story6.cpp Story7.cpp
          Main.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Story7.cpp
+         Story6.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\dav.edu\Students\HS19$\mnargue02\My Documents\Visual Studio 2013\Projects\MadLibs Final\Debug\MadLibs Final.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\dav.edu\Students\HS19$\mnargue02\My Documents\Visual Studio 2013\Projects\MadLibs Final\Debug\MadLibs Final.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\dav.edu\Students\HS19$\mnargue02\My Documents\Visual Studio 2013\Projects\MadLibs Final\Debug\MadLibs Final.lib" /MACHINE:X86 Debug\Main.obj
          Debug\Story1.obj
@@ -17,4 +21,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.57
+Time Elapsed 00:00:03.37

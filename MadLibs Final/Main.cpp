@@ -22,6 +22,7 @@ using namespace std;
 void storyOne(){
 	Words words;
 
+	cout << "\n";
 	cout << "Enter a noun:  ";
 	cin >> words.noun1;
 	cout << "Enter an adjective:  ";
@@ -43,6 +44,7 @@ void storyOne(){
 	cout << "Enter a verb ending in ING:  ";
 	cin >> words.verbING1;
 	cout << "Your story:\n";
+	cout << "\n";
 
 	StoryOne one;
 	one.makeStory(words);
@@ -51,6 +53,7 @@ void storyOne(){
 void storyTwo() {
 	Words words;
 
+	cout << "\n";
 	cout << "Enter an adjective:  ";
 	cin >> words.adjective4;
 	cout << "Enter an adjective:  ";
@@ -86,6 +89,7 @@ void storyTwo() {
 	cout << "Enter a verb ending in ing:  ";
 	cin >> words.verbING2;
 	cout << "Your story:\n";
+	cout << "\n";
 
 	StoryTwo two;
 	two.makeStory(words);
@@ -94,7 +98,7 @@ void storyTwo() {
 void storyThree(){
 	Words words;
 
-
+	cout << "\n";
 	cout << "Enter an adjective:  ";
 	cin >> words.adjective8;
 	cout << "Enter a celebrity:  ";
@@ -120,6 +124,7 @@ void storyThree(){
 	cout << "Enter a plural noun:  ";
 	cin >> words.pluralNoun9;
 	cout << "Your story:\n";
+	cout << "\n";
 
 	StoryThree three;
 	three.makeStory(words);
@@ -127,6 +132,7 @@ void storyThree(){
 void storyFour(){
 Words words;
 
+cout << "\n";
 	cout << "Enter an adjective:  ";
 	cin >> words.adjective9;
 	cout << "Enter an adjective:  ";
@@ -158,6 +164,7 @@ Words words;
 	cout << "Enter a plant:  ";
 	cin >> words.plant1;
 	cout << "Your story:\n";
+	cout << "\n";
 
 	StoryFour four;
 	four.makeStory(words);
@@ -166,6 +173,7 @@ Words words;
 void storyFive(){
 	Words words;
 
+	cout << "\n";
 	cout << "Enter a noun:  ";
 	cin >> words.noun11;
 	cout << "Enter a noun:  ";
@@ -195,6 +203,7 @@ void storyFive(){
 	cout << "Enter a conjunction:  ";
 	cin >> words.conjunction1;
 	cout << "Your story:\n";
+	cout << "\n";
 
 	StoryFive five;
 	five.makeStory(words);
@@ -203,6 +212,7 @@ void storyFive(){
 void storySix(){
 	Words words;
 
+	cout << "\n";
 	cout << "Enter an adjective:  ";
 	cin >> words.adjective14;
 	cout << "Enter an adjective:  ";
@@ -250,6 +260,7 @@ void storySix(){
 	cout << "Enter a liquid:  ";
 	cin >> words.liquid1;
 	cout << "Your story:\n";
+	cout << "\n";
 
 	StorySix six;
 	six.makeStory(words);
@@ -258,7 +269,7 @@ void storySix(){
 void storySeven(){
 	Words words;
 
-
+	cout << "\n";
 	cout << "Enter a pronoun:  ";
 	cin >> words.pronoun1;
 	cout << "Enter a plural noun:  ";
@@ -278,6 +289,7 @@ void storySeven(){
 	cout << "Enter a number:  ";
 	cin >> words.number3;
 	cout << "Your story:\n";
+	cout << "\n";
 
 	StorySeven seven;
 	seven.makeStory(words);
@@ -290,30 +302,37 @@ int main() {
 	cin >> selection;
 	switch (selection) {
 	case 1:
+		cout << "\n";
 		cout << "Emmy speech\n";
 		storyOne();
 		break;
 	case 2:
+		cout << "\n";
 		cout << "Video Games\n";
 		storyTwo();
 		break;
 	case 3:
+		cout << "\n";
 		cout << "Rock Music\n";
 		storyThree();
 		break;
 	case 4:
+		cout << "\n";
 		cout << "Summer Camp\n";
 		storyFour();
 		break;
 	case 5:
+		cout << "\n";
 		cout << "Sonic\n";
 		storyFive();
 		break;
 	case 6:
+		cout << "\n";
 		cout << "Tarty Note\n";
 		storySix();
 		break;
 	case 7:
+		cout << "\n";
 		cout << "Marching band\n";
 		storySeven();
 		break;

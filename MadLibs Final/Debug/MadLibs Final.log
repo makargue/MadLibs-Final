@@ -1,4 +1,4 @@
-﻿Build started 5/17/2016 8:30:13 AM.
+﻿Build started 5/18/2016 9:55:52 AM.
      1>Project "\\dav.edu\Students\HS19$\mnargue02\My Documents\Visual Studio 2013\Projects\MadLibs Final\MadLibs Final\MadLibs Final.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Story6.cpp Story7.cpp
@@ -21,4 +21,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.37
+Time Elapsed 00:00:04.50

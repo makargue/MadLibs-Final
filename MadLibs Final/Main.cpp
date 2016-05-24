@@ -60,7 +60,7 @@ void storyTwo() {
 	cin >> words.adjective5;
 	cout << "Enter an adjective:  ";
 	cin >> words.adjective6;
-	cout << "Enter an adjective  ";
+	cout << "Enter an adjective:  ";
 	cin >> words.adjective7;
 	cout << "Enter a noun:  ";
 	cin >> words.noun2;
@@ -125,7 +125,6 @@ void storyThree(){
 	cin >> words.pluralNoun9;
 	cout << "Your story:\n";
 	cout << "\n";
-
 	StoryThree three;
 	three.makeStory(words);
 }
@@ -188,7 +187,7 @@ void storyFive(){
 	cin >> words.adjective12;
 	cout << "Enter an adjective:  ";
 	cin >> words.adjective13;
-	cout << "Enter a verb  :";
+	cout << "Enter a verb:  :";
 	cin >> words.verb2;
 	cout << "Enter a verb ending in ing:  ";
 	cin >> words.verbING3;
@@ -261,7 +260,6 @@ void storySix(){
 	cin >> words.liquid1;
 	cout << "Your story:\n";
 	cout << "\n";
-
 	StorySix six;
 	six.makeStory(words);
 }
@@ -297,7 +295,7 @@ void storySeven(){
 
 
 int main() {
-	cout << "Select story 1, 2, 3, 4, 5, 6, or 7   ";
+	cout << "Select story 1, 2, 3, 4, 5, 6, 7, or 8 to exit   ";
 	int selection;
 	cin >> selection;
 	switch (selection) {
@@ -305,38 +303,309 @@ int main() {
 		cout << "\n";
 		cout << "Emmy speech\n";
 		storyOne();
-		break;
+		cout << "Select story 11, 12, 13, 14, 15, 16, or 17  ";
+		int selection;
+		cin >> selection;
+		switch (selection) {
+		case 11:
+			cout << "\n";
+			cout << "Emmy speech\n";
+			storyOne();
+			break;
+		case 12:
+			cout << "\n";
+			cout << "Video Games\n";
+			storyTwo();
+			break;
+		case 13:
+			cout << "\n";
+			cout << "Rock Music\n";
+			storyThree();
+			break;
+		case 14:
+			cout << "\n";
+			cout << "Summer Camp\n";
+			storyFour();
+			break;
+		case 15:
+			cout << "\n";
+			cout << "Sonic\n";
+			storyFive();
+			break;
+		case 16:
+			cout << "\n";
+			cout << "Tarty Note\n";
+			storySix();
+			break;
+		case 17:
+			cout << "\n";
+			cout << "Marching band\n";
+			storySeven();
+			break;
+		}
 	case 2:
 		cout << "\n";
 		cout << "Video Games\n";
 		storyTwo();
-		break;
+		cout << "Select story 21, 22, 23, 24, 25, 26, or 27   ";
+		int selection1;
+		cin >> selection;
+		switch (selection) {
+		case 21:
+			cout << "\n";
+			cout << "Emmy speech\n";
+			storyOne();
+			break;
+		case 22:
+			cout << "\n";
+			cout << "Video Games\n";
+			storyTwo();
+			break;
+		case 23:
+			cout << "\n";
+			cout << "Rock Music\n";
+			storyThree();
+			break;
+		case 24:
+			cout << "\n";
+			cout << "Summer Camp\n";
+			storyFour();
+			break;
+		case 25:
+			cout << "\n";
+			cout << "Sonic\n";
+			storyFive();
+			break;
+		case 26:
+			cout << "\n";
+			cout << "Tarty Note\n";
+			storySix();
+			break;
+		case 27:
+			cout << "\n";
+			cout << "Marching band\n";
+			storySeven();
+			break;
+		}
 	case 3:
 		cout << "\n";
 		cout << "Rock Music\n";
 		storyThree();
-		break;
+		cout << "Select story 1, 2, 3, 4, 5, 6, or 7   ";
+		int selection2;
+		cin >> selection;
+		switch (selection) {
+		case 31:
+			cout << "\n";
+			cout << "Emmy speech\n";
+			storyOne();
+			break;
+		case 32:
+			cout << "\n";
+			cout << "Video Games\n";
+			storyTwo();
+			break;
+		case 33:
+			cout << "\n";
+			cout << "Rock Music\n";
+			storyThree();
+			break;
+		case 34:
+			cout << "\n";
+			cout << "Summer Camp\n";
+			storyFour();
+			break;
+		case 35:
+			cout << "\n";
+			cout << "Sonic\n";
+			storyFive();
+			break;
+		case 36:
+			cout << "\n";
+			cout << "Tarty Note\n";
+			storySix();
+			break;
+		case 37:
+			cout << "\n";
+			cout << "Marching band\n";
+			storySeven();
+			break;
+		}
 	case 4:
 		cout << "\n";
 		cout << "Summer Camp\n";
 		storyFour();
-		break;
+		cout << "Select story 1, 2, 3, 4, 5, 6, or 7   ";
+		int selection3;
+		cin >> selection;
+		switch (selection) {
+		case 41:
+			cout << "\n";
+			cout << "Emmy speech\n";
+			storyOne();
+			break;
+		case 42:
+			cout << "\n";
+			cout << "Video Games\n";
+			storyTwo();
+			break;
+		case 43:
+			cout << "\n";
+			cout << "Rock Music\n";
+			storyThree();
+			break;
+		case 44:
+			cout << "\n";
+			cout << "Summer Camp\n";
+			storyFour();
+			break;
+		case 45:
+			cout << "\n";
+			cout << "Sonic\n";
+			storyFive();
+			break;
+		case 46:
+			cout << "\n";
+			cout << "Tarty Note\n";
+			storySix();
+			break;
+		case 47:
+			cout << "\n";
+			cout << "Marching band\n";
+			storySeven();
+			break;
+		}
 	case 5:
 		cout << "\n";
 		cout << "Sonic\n";
 		storyFive();
-		break;
+		cout << "Select story 1, 2, 3, 4, 5, 6, or 7   ";
+		int selection4;
+		cin >> selection;
+		switch (selection) {
+		case 51:
+			cout << "\n";
+			cout << "Emmy speech\n";
+			storyOne();
+			break;
+		case 52:
+			cout << "\n";
+			cout << "Video Games\n";
+			storyTwo();
+			break;
+		case 53:
+			cout << "\n";
+			cout << "Rock Music\n";
+			storyThree();
+			break;
+		case 54:
+			cout << "\n";
+			cout << "Summer Camp\n";
+			storyFour();
+			break;
+		case 55:
+			cout << "\n";
+			cout << "Sonic\n";
+			storyFive();
+			break;
+		case 56:
+			cout << "\n";
+			cout << "Tarty Note\n";
+			storySix();
+			break;
+		case 57:
+			cout << "\n";
+			cout << "Marching band\n";
+			storySeven();
+			break;
+		}
 	case 6:
 		cout << "\n";
 		cout << "Tarty Note\n";
 		storySix();
-		break;
+		cout << "Select story 1, 2, 3, 4, 5, 6, or 7   ";
+		int selection5;
+		cin >> selection;
+		switch (selection) {
+		case 61:
+			cout << "\n";
+			cout << "Emmy speech\n";
+			storyOne();
+			break;
+		case 62:
+			cout << "\n";
+			cout << "Video Games\n";
+			storyTwo();
+			break;
+		case 63:
+			cout << "\n";
+			cout << "Rock Music\n";
+			storyThree();
+			break;
+		case 64:
+			cout << "\n";
+			cout << "Summer Camp\n";
+			storyFour();
+			break;
+		case 65:
+			cout << "\n";
+			cout << "Sonic\n";
+			storyFive();
+			break;
+		case 66:
+			cout << "\n";
+			cout << "Tarty Note\n";
+			storySix();
+			break;
+		case 67:
+			cout << "\n";
+			cout << "Marching band\n";
+			storySeven();
+			break;
+		}
 	case 7:
 		cout << "\n";
 		cout << "Marching band\n";
 		storySeven();
-		break;
+		cout << "Select story 1, 2, 3, 4, 5, 6, or 7   ";
+		int selection6;
+		cin >> selection;
+		switch (selection) {
+		case 71:
+			cout << "\n";
+			cout << "Emmy speech\n";
+			storyOne();
+			break;
+		case 72:
+			cout << "\n";
+			cout << "Video Games\n";
+			storyTwo();
+			break;
+		case 73:
+			cout << "\n";
+			cout << "Rock Music\n";
+			storyThree();
+			break;
+		case 74:
+			cout << "\n";
+			cout << "Summer Camp\n";
+			storyFour();
+			break;
+		case 75:
+			cout << "\n";
+			cout << "Sonic\n";
+			storyFive();
+			break;
+		case 76:
+			cout << "\n";
+			cout << "Tarty Note\n";
+			storySix();
+			break;
+		case 77:
+			cout << "\n";
+			cout << "Marching band\n";
+			storySeven();
+			break;
+		}
 	}
-	system("pause");
-	return 0;
 }
